@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const proverbs = require('./proverbs');
+const proverbs = require('./proverbs.json');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
