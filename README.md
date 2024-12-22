@@ -1,5 +1,5 @@
 # Azərbaycan Dilində Ata Sözləri üçün API
-URL : https://atasozleri-api.onrender.com/ 
+URL : https://ata-sozleri-api.onrender.com/ 
 
 | Başlıqlar                                          | URL                                   | Nəticə                                                       |
 | -------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------ |
@@ -12,7 +12,7 @@ URL : https://atasozleri-api.onrender.com/
 
 ## 1. Bütün atasözlərini görmək
 ```javascript
-fetch('https://atasozleri-api.onrender.com/api/proverbs')
+fetch('https://ata-sozleri-api.onrender.com/api/proverbs')
   .then(response => response.json())
   .then(data => {
     console.log('Bütün atasözləri:', data);
@@ -23,7 +23,7 @@ fetch('https://atasozleri-api.onrender.com/api/proverbs')
 ```
 ## 2. Hərfə görə axtarış etmək
 ```javascript
-fetch('https://atasozleri-api.onrender.com/api/proverbs/a')
+fetch('https://ata-sozleri-api.onrender.com/api/proverbs/a')
   .then(response => response.json())
   .then(data => {
     console.log('a hərfi ilə əlaqəli atasözləri:', data);
@@ -34,7 +34,7 @@ fetch('https://atasozleri-api.onrender.com/api/proverbs/a')
 ```
 ## 3. Random 10 dənə atasözü gətirmək
 ```javascript
-fetch('https://atasozleri-api.onrender.com/api/proverbs/random')
+fetch('https://ata-sozleri-api.onrender.com/api/proverbs/random')
   .then(response => response.json())
   .then(data => {
     console.log('random atasözləri:', data);
@@ -45,7 +45,7 @@ fetch('https://atasozleri-api.onrender.com/api/proverbs/random')
 ```
 ## 4. Hərf və id-yə görə axtarış etmək
 ```javascript
-fetch('https://atasozleri-api.onrender.com/api/proverbs/a/1')
+fetch('https://ata-sozleri-api.onrender.com/api/proverbs/a/1')
   .then(response => response.json())
   .then(data => {
     console.log('ID ilə atasözü:', data);
