@@ -1,39 +1,5683 @@
 {
-    "A": [
-      { "id": 1, "text": "Ağıl yaşda deyil, başdadır." },
-      { "id": 2, "text": "Ana kimi yar olmaz, vətən kimi diyar." },
-      { "id": 3, "text": "Az söz qızıl, çox söz gümüşdür." },
-      { "id": 4, "text": "Ağac bar verəndə başını aşağı əyər." },
-      { "id": 5, "text": "Açıq ürək, düz yol." },
-      { "id": 6, "text": "Ağa qul olmaq istəyən, ələ düşəni yesin." },
-      { "id": 7, "text": "Ağıl işığın yoludur." },
-      { "id": 8, "text": "Azı bil, çoxu bilmək istə." },
-      { "id": 9, "text": "Ağıl başda, bərəkət işdədir." },
-      { "id": 10, "text": "Ağlamaqdan ağıl artmaz." }
-    ],
-    "B": [
-      { "id": 11, "text": "Bərəkət işdədir." },
-      { "id": 12, "text": "Bir ağacdan iki quş uçmaz." },
-      { "id": 13, "text": "Bir əl ilə səs çıxmaz." },
-      { "id": 14, "text": "Bilinməyən qələm, yazı çətin olar." },
-      { "id": 15, "text": "Bir işi görən min işdən xəbərdar olar." },
-      { "id": 16, "text": "Bilinməyən sərvət, gülməyi unutdurmaz." },
-      { "id": 17, "text": "Bir su daş yorar." },
-      { "id": 18, "text": "Bir işdən üç nəticə çıxmaz." },
-      { "id": 19, "text": "Birlik bərəkətdir." },
-      { "id": 20, "text": "Bilik insanı yüksəldər." }
-    ],
-    "C": [
-      { "id": 21, "text": "Cəhd edənin yolu açılar." },
-      { "id": 22, "text": "Cahillik, insanın ən böyük düşmənidir." },
-      { "id": 23, "text": "Cəsur olmaq, hər zaman irəlidə olmaqdır." },
-      { "id": 24, "text": "Cəsarət, müvəffəqiyyətin açarıdır." },
-      { "id": 25, "text": "Cövhər daşda gizlənər." },
-      { "id": 26, "text": "Cəsarət işıqdır, qorxu qaranlıq." },
-      { "id": 27, "text": "Cahillik insanı məhv edər." },
-      { "id": 28, "text": "Cəldlik hər işi asanlaşdırar." },
-      { "id": 29, "text": "Cəmiyyəti bilik qurur." },
-      { "id": 30, "text": "Cəhalət bədbəxtlik gətirər." }
+  "A": [
+    { "id": 1, "text": "Abad evlər gülüyəm, xaraba evlər bayquşu." },
+    { "id": 2, "text": "Abad kənd tüstüsündən bəlli olar." },
+    { "id": 3, "text": "Abad məclis aşığından bəllidir." },
+    { "id": 4, "text": "Abad yerin bülbülü, xarabanın bayquşu." },
+    { "id": 5, "text": "Abadan kənd tüstüsündən bəlli olar." },
+    { "id": 6, "text": "Abanın qədri yağışda məlum olar." },
+    { "id": 7, "text": "Abbas Abbasdan, Abbas da kor Abbasdan." },
+    { "id": 8, "text": "Abbasıdan beş şahı çıxardır." },
+    { "id": 9, "text": "Abbasını bəyənməyən beş şahı çıxardar." },
+    { "id": 10, "text": "Abdaldan paşa olmaz, taxtadan maşa." },
+    { "id": 11, "text": "Abdal at mindi, özünü bəy sandı." },
+    { "id": 12, "text": "Abdal düyündən, uşaq oyundan usanmaz." },
+    { "id": 13, "text": "Abdal, qar yağır! — Dayanmışam titrəməyə." },
+    { "id": 14, "text": "Abdal nə bilir ki, heyva kaldır?" },
+    { "id": 15, "text": "Abdal ol, səni görən dəlü sansın." },
+    { "id": 16, "text": "Abdal oynayanda qar yağar." },
+    { "id": 17, "text": "Abdal təkkədə, Hacı Məkkədə olar." },
+    { "id": 18, "text": "Abdalın qarnı doyunca, gözü qapıda olar." },
+    { "id": 19, "text": "Abidi şeytan başdan çıxardar." },
+    { "id": 20, "text": "Abır harda, çörək orda." },
+    { "id": 21, "text": "Abır-həya olan yerdə bərəkət də olar." },
+    { "id": 22, "text": "Abır istəsən çox demə, sağlıq istəsən çox yemə." },
+    { "id": 23, "text": "Abır olmayan yerdə, çörək olmaz." },
+    { "id": 24, "text": "Abırlı abrından qorxar, abırsız nədən qorxar?!" },
+    { "id": 25, "text": "Abırsızdan abrını gözlə." },
+    { "id": 26, "text": "Abırsızdan abrını saxla." },
+    { "id": 27, "text": "Abrını yeyib, həyasını da belinə bağlayıb." },
+    { "id": 28, "text": "Ac acı aldı, acdan ləlöyün törədi." },
+    { "id": 29, "text": "Ac acı dalayar, tox toxu yalayar." },
+    { "id": 30, "text": "Ac adam acıqlı olar." },
+    { "id": 31, "text": "Ac adam özünü oda vurar." },
+    { "id": 32, "text": "Ac adam yol kəsər." },
+    { "id": 33, "text": "Ac adamı qurd yeməz." },
+    { "id": 34, "text": "Ac aman bilməz." },
+    { "id": 35, "text": "Ac ayı oynamaz." },
+    { "id": 36, "text": "Ac bayıra qaçar, yalavac evə girər." },
+    { "id": 37, "text": "Ac bəydən tox it yaxşıdır." },
+    { "id": 38, "text": "Ac deyər doymaram, tox deyər acmaram." },
+    { "id": 39, "text": "Ac doğrayar, tox yeyər." },
+    { "id": 40, "text": "Ac donuz darıdan çıxmaz." },
+    { "id": 41, "text": "Ac elə bilər hamı acdır, tox elə bilər hamı toxdur." },
+    { "id": 42, "text": "Ac eşşək atdan bərk qaçar." },
+    { "id": 43, "text": "Ac əlinə düşəni yeyər, tox ağzına gələni deyər." },
+    { "id": 44, "text": "Ac əsnəyər, tox gərnəşər." },
+    {
+      "id": 45,
+      "text": "Ac girdi içəriyə yemək istədi, tox dedi; əvvəla, salam."
+    },
+    { "id": 46, "text": "Ac hara, paxaç hara." },
+    { "id": 47, "text": "Ac it gəlmiş, tox itin dalın yalayar." },
+    { "id": 48, "text": "Ac qalmaq borclu olmaqdan yaxşıdır." },
+    { "id": 49, "text": "Ac qarına bir nəfər, nəğmə oxurmu məgər?!" },
+    { "id": 50, "text": "Ac qarnına soyuq su?" }
+  ],
+
+  "B": [
+    { "id": 51, "text": "Babadan hikmət – nəvədən xidmət." },
+    { "id": 52, "text": "Babam mənə kor deyib, gəlib gedəni vur deyib!" },
+    { "id": 53, "text": "Babanın əlindən nəvə tutar." },
+    { "id": 54, "text": "Babanın üzünü ağardan nəvəsi olar." },
+    { "id": 55, "text": "Babasına uyan atasının oğlu deyil." },
+    { "id": 56, "text": "Bablı babı ilə, atlası qabı ilə." },
+    { "id": 57, "text": "Bablı babı ilə, su qullabı ilə." },
+    { "id": 58, "text": "Bablı babın tapmasa, günü ah-vaynan keçər." },
+    { "id": 59, "text": "Bac istərəm bacımdan, bacım ölür acından." },
+    { "id": 60, "text": "Bacaran bal yeyər." },
+    { "id": 61, "text": "Bacarana baş qurban." },
+    { "id": 62, "text": "Bacarıq ağlın nişanəsidir." },
+    { "id": 63, "text": "Bacarırsan aslan ol, tülkü olmaq asandır." },
+    { "id": 64, "text": "Bacarmadığın bir işi 'bacararam!' demə." },
+    { "id": 65, "text": "Bacarsan hamının yükünü sən daşı." },
+    { "id": 66, "text": "Bacı ki, evdən çıxdı, ixtiyarı səndən çıxdı." },
+    {
+      "id": 67,
+      "text": "Bacı oğludur, haqq almaz, dayıdır, quzunun dişisini verər."
+    },
+    { "id": 68, "text": "Bacı oğludur, haqq almaz, dayıdır, dişi verməz." },
+    { "id": 69, "text": "Bacı oğlunu dayısı tanıdar, bacı qızını xalası." },
+    {
+      "id": 70,
+      "text": "Bağ alma, bağlanarsan, dağ alma, dağlanarsan, qoyun al, yağlanarsan."
+    },
+    { "id": 71, "text": "Bağ bağbansız olmaz, dəvə sarvansız." },
+    { "id": 72, "text": "Bağ bağbanındır." },
+    { "id": 73, "text": "Bağ çəpərsiz olmaz." },
+    { "id": 74, "text": "Bağ olmayan yerdə böyürtkən bitər." },
+    { "id": 75, "text": "Bağ olmayan yerdə böyürtkən özünü bağ çağırar." },
+    { "id": 76, "text": "Bağ salan barın yeyər." },
+    { "id": 77, "text": "Bağ satıb, dağ alıb." },
+    { "id": 78, "text": "Bağ vaxtı bağbanın qulağı ağır eşidər." },
+    { "id": 79, "text": "Bağa bax, barını gör." },
+    { "id": 80, "text": "Bağa bax üzüm olsun, yeməyə üzün olsun." },
+    { "id": 81, "text": "Bağa baxarsan bağ olar, baxmazsan dağ olar." },
+    { "id": 82, "text": "Bağa bağ deməyiblər, bax deyiblər." },
+    { "id": 83, "text": "Bağa bağban lazımdır, qoyuna – çoban." },
+    { "id": 84, "text": "Bağa qınından çıxdı, qınını bəyənmədi." },
+    { "id": 85, "text": "Bağa özün çəkə bilməz, evin dalına alar." },
+    { "id": 86, "text": "Bağa yol gedə bilməz, dayısını da dalına götürər." },
+    {
+      "id": 87,
+      "text": "Bağa yol yeriyə bilməz, xalası qızını da dalına alar."
+    },
+    { "id": 88, "text": "Bağanı ya öldür, ya dalısı üstə qoy." },
+    { "id": 89, "text": "Bağban eşşəyi bir ildən artıq saxlamaz." },
+    {
+      "id": 90,
+      "text": "Bağban əli dəyməyən bağı alaq basar, qadın əli dəyməyən evi qəm-kədər."
+    },
+    { "id": 91, "text": "Bağban tələsər, armud vaxtında yetişər." },
+    { "id": 92, "text": "Bağbanın bar vaxtı qulağı ağır eşidər." },
+    { "id": 93, "text": "Bağbanın könlü olsa, nə gəlib bağda bara." },
+    { "id": 94, "text": "Bağçı, bağın qıydı, bağban salxım da qıymadı." },
+    { "id": 95, "text": "Bağda ərik badam oldu, gədalar adam oldu." },
+    {
+      "id": 96,
+      "text": "Bağda ərik var idi, salam-məleyik var idi; Bağdan ərik qurtardı, salam-məleyik qurtardı."
+    },
+    {
+      "id": 97,
+      "text": "Bağdadda eşşək bir xiyar qiymətindədir, amma onu gətirmək gəmi qiymətindədir."
+    },
+    { "id": 98, "text": "Bağdakı bağbanın malıdır." },
+    { "id": 99, "text": "Bağı bağban yeyər, qoyunu çoban." },
+    { "id": 100, "text": "Bağı susuzluğu, bağbanı əməyi yandırar." }
+  ],
+  "C": [
+    { "id": 101, "text": "Cahil axırda tula quyruğu xınalar." },
+    { "id": 102, "text": "Cahil dirilərin ölüsüdür." },
+    { "id": 103, "text": "Cahil ilə bal yemə, ahıl ilə daş daşı." },
+    { "id": 104, "text": "Cahil ilə çıxma yola, gətirər başına min bir bəla." },
+    { "id": 105, "text": "Cahıl ilə daş daşı, ahıl ilə yemə aşı." },
+    {
+      "id": 106,
+      "text": "Cahil özünə düşməndir, başqasına necə dost ola bilər?!"
+    },
+    { "id": 107, "text": "Cahildə söz əylənməz." },
+    { "id": 108, "text": "Cahangirdən qorx, dəlidən qorxma." },
+    { "id": 109, "text": "Cahilə qoşulan cahil olar." },
+    {
+      "id": 110,
+      "text": "Cahil söz qandırmaq, dəvəyə xəndək atdırmaq kimidir."
+    },
+    { "id": 111, "text": "Cahili cahillər mədh eylər." },
+    { "id": 112, "text": "Cahilin ağlı başında yoх, gözündə olar." },
+    { "id": 113, "text": "Cahilin ibadətindən alimin yuxusu yaxşıdır." },
+    { "id": 114, "text": "Cahilin sözü - eşşəyin anqırtısı." },
+    {
+      "id": 115,
+      "text": "Cahillikdə bəzənmədim, hayıf mənə, qocalıqda bəzənmişəm, ayıb mənə."
+    },
+    { "id": 116, "text": "Cahıla gedən keyf çəkər, ahıla gedən of çəkər." },
+    { "id": 117, "text": "Camaat sevəni Allah da sevər." },
+    { "id": 118, "text": "Camadarın şahlığı hamamçılıqdır." },
+    { "id": 119, "text": "Camal gedər, kamal gələr." },
+    { "id": 120, "text": "Camala baхma, kamala baх." },
+    {
+      "id": 121,
+      "text": "Came nə qədər böyük olsa, imam yenə bildiyini oxur."
+    },
+    { "id": 122, "text": "Camış ola, qamış ola, ondan yeməmiş ola." },
+    { "id": 123, "text": "Can alan baxışından bəlli olar." },
+    { "id": 124, "text": "Can baladan şirindir." },
+    { "id": 125, "text": "Can bazarda satılmaz." },
+    { "id": 126, "text": "Can can üçün yanar, yadın harası yanar?" },
+    { "id": 127, "text": "Can candan ayrıdır." },
+    { "id": 128, "text": "Can de, can eşit." },
+    { "id": 129, "text": "Can deməklə can əskilməz." },
+    { "id": 130, "text": "Can deyən çox olar, can verən olmaz." },
+    { "id": 131, "text": "Can gedincə mal getsin." },
+    { "id": 132, "text": "Can mənim canım, çıxsın sənin canın." },
+    { "id": 133, "text": "Can sağlığı dövlətdir, demə, babam, yoxsulam." },
+    { "id": 134, "text": "Can sağlığı – dünya varlığı." },
+    { "id": 135, "text": "Can sənin, cəhənnəm Tanrının." },
+    { "id": 136, "text": "Can şirin olur." },
+    {
+      "id": 137,
+      "text": "Can verəndə boz sərçəyə ver, qaranquş gəldi-gedərdir."
+    },
+    { "id": 138, "text": "Can verirsən qardaşa ver, min il keçsə yad olmaz." },
+    { "id": 139, "text": "Can verməyən canana yetməz." },
+    { "id": 140, "text": "Can versən, qardaşa ver, min il keçə yad olmaz." },
+    { "id": 141, "text": "Cana gələn mala gəlsin." },
+    { "id": 142, "text": "Canandan ayrılan candan ayrılar." },
+    { "id": 143, "text": "Cananı sevən canından keçər." },
+    { "id": 144, "text": "Canavar canavarın dərisini çıxarmaz." },
+    { "id": 145, "text": "Canavar özü hürmür, iti hürməyə məcbur edir." },
+    { "id": 146, "text": "Canavar tək qalanda başına çaqqallar yığışar." },
+    { "id": 147, "text": "Canavardan qorxan meşəyə girməz." },
+    { "id": 148, "text": "Canavarın üzü ağ olsa, kəndə gündüzlər gələr." },
+    { "id": 149, "text": "Canavarlar ağız-ağıza yatarlar." },
+    { "id": 150, "text": "Canbaz ipdə gəzər, balıq - suda." }
+  ],
+  "Ç": [
+    [
+      { "id": 151, "text": "Çürük taxta mıx götürməz." },
+      { "id": 152, "text": "Çürük üzümün şirinliyi olmaz." },
+      { "id": 153, "text": "Çökmüş ağacın kölgəsi olmaz." },
+      { "id": 154, "text": "Çörəyi kim verir, təqdirini də o qoyar." },
+      { "id": 155, "text": "Çörəyi tanımayan adama kömək etməyin." },
+      { "id": 156, "text": "Çox ağlama, çox gülmə, yerində ol." },
+      {
+        "id": 157,
+        "text": "Çox bağıran it, tutmaz, az danışan it çox iş görər."
+      },
+      { "id": 158, "text": "Çox da danışma, susmaq ən gözəl cavabdır." },
+      { "id": 159, "text": "Çox hürən it başını itirər." },
+      { "id": 160, "text": "Çox kəsmək də dəriyə zərər verər." },
+      { "id": 161, "text": "Çox kəlmə özünə yük olar." },
+      { "id": 162, "text": "Çox nəfəs alan, çox yorular." },
+      { "id": 163, "text": "Çox odun atma, iş yanan zaman lazım olar." },
+      {
+        "id": 164,
+        "text": "Çox öyünmə, qızım; pendirinin içindən çıxacaq kürk da var."
+      },
+      { "id": 165, "text": "Çox təcrübə az sözə səbəb olar." },
+      { "id": 166, "text": "Çox zəhmət çəkmək, az nəticə verməz." },
+      { "id": 167, "text": "Çox danışan, çox yanılar." },
+      { "id": 168, "text": "Çox yox, az var." },
+      { "id": 169, "text": "Çox yemək, çox xəstəlik gətirər." },
+      { "id": 170, "text": "Çox yer gəzən çox bilər." },
+      { "id": 171, "text": "Çox yuxu daha az səmərəli olar." },
+      { "id": 172, "text": "Çox yer gəzən heç vaxt evini unutmaz." },
+      {
+        "id": 173,
+        "text": "Çox yaşamaq bir zənginlik deyil, çox yaşamış olmaq üçün əvvəl ölmək lazımdır."
+      },
+      { "id": 174, "text": "Çox su var, amma hər biri bir yerdə axar." },
+      {
+        "id": 175,
+        "text": "Çox toxum əkməyin, bir toxumla yetişməyə çalışın."
+      },
+      { "id": 176, "text": "Çox vəd vermək, az təklif etməklə nəticələnər." },
+      { "id": 177, "text": "Çox xahiş etmək çox narahat edər." },
+      { "id": 178, "text": "Çox hürən it çox boşalır." },
+      { "id": 179, "text": "Çox öyrənmək, daha çox səhv etmək deməkdir." },
+      { "id": 180, "text": "Çox çətin olan yol ən qiymətlidir." },
+      {
+        "id": 181,
+        "text": "Çox bəzənməyin, bu sizin zəif olduğunuzu göstərir."
+      },
+      { "id": 182, "text": "Çox kəmək etmək çox şəfa gətirir." },
+      { "id": 183, "text": "Çox mərhəmət, çox gəlir." },
+      { "id": 184, "text": "Çox yaxşı insana təsəlli sözləri boşdur." },
+      { "id": 185, "text": "Çox yol gedənin ayağı rahat olmaz." },
+      {
+        "id": 186,
+        "text": "Çox da yaxşı olmaq bəzən tələyə düşməyə səbəb olur."
+      },
+      { "id": 187, "text": "Çox uşaqla böyük məsuliyyətlər gəlir." },
+      { "id": 188, "text": "Çox ağlama, çox gülmə, azadlığa gedin." },
+      { "id": 189, "text": "Çox insan sevəndə, çox az sevinərsən." },
+      { "id": 190, "text": "Çox çalış, az narahat ol." },
+      {
+        "id": 191,
+        "text": "Çox düşmənin olsa da, heç vaxt birini düşmənə çevir."
+      },
+      { "id": 192, "text": "Çox səyahət insanı dəyişdirər." },
+      { "id": 193, "text": "Çox yerə baxma, öz yolunu gözləyin." },
+      { "id": 194, "text": "Çox sözlə, iş bitməz, əməllər göstərilər." },
+      { "id": 195, "text": "Çox danışmaq, daha çox səhv etmək deməkdir." }
     ]
-  }
-  
+  ],
+  "D": [
+    { "id": 196, "text": "Dadanan dayanmaz, pofuduğu pazdamaz" },
+    { "id": 197, "text": "Dadanan qudurandan pis olar." },
+    { "id": 198, "text": "Dadananla quduranı saxlamaq olmaz." },
+    { "id": 199, "text": "Dadanmısan dolmaya, bəlkə bir gün olmaya?!" },
+    { "id": 200, "text": "Dadanmısan, qudurmusan?!" },
+    { "id": 201, "text": "Dadı dağarcığında qalıb." },
+    { "id": 202, "text": "Dadımlıqdır, doyumluq deyil." },
+    { "id": 203, "text": "Dadlı söz — can arzusu, dadsız söz — baş ağrısı." },
+    { "id": 204, "text": "Dadlı söz dillənər, dadsız söz əsnədər." },
+    { "id": 205, "text": "Dadlı söz — gülər aş" },
+    { "id": 206, "text": "Dadmaqla mal tükənməz." },
+    { "id": 207, "text": "Dadmamısan qaz ətini, nə biləsən ləzzətini?" },
+    { "id": 208, "text": "Dadsız şorbaya duz da kar eləməz." },
+    { "id": 209, "text": "Dağ başı dumandan qurtarmaz, insan başı yamandan." },
+    { "id": 210, "text": "Dağ başına qış gələr, igid başına iş." },
+    { "id": 211, "text": "Dağ başında xırman qurma, sovurarsan, yel aparar." },
+    { "id": 212, "text": "Dağ başında dəyirman qurma, üyüdərsən sel aparar." },
+    { "id": 213, "text": "Dağ başından duman əskik olmaz." },
+    { "id": 214, "text": "Dağ bizim, ceyran bizim, ovçu burda nə axtarır." },
+    { "id": 215, "text": "Dağ da olsan dağa daldalan." },
+    { "id": 216, "text": "Dağ dağa arxadır." },
+    { "id": 217, "text": "Dağ dağa qovuşmaz, insan insana qovuşar." },
+    { "id": 218, "text": "Dağ dediyin ucalıqdır, ucalıq." },
+    { "id": 219, "text": "Dağ iti gəldi, bağ itini qovladı." },
+    { "id": 220, "text": "Dağ quşu dağa yaraşar, bağ quşu — bağa!" },
+    { "id": 221, "text": "Dağ nə qədər uca olsa, el üstündən yol salar." },
+    {
+      "id": 222,
+      "text": "Dağ ola, duman ola, qırmızı tuman ola, mən olmayım, sən olasan."
+    },
+    { "id": 223, "text": "Dağ səfasız olmaz, qəhbə vəfasız." },
+    { "id": 224, "text": "Dağ suları dağdan gələr." },
+    { "id": 225, "text": "Dağ üstə maral gəzər." },
+    { "id": 226, "text": "Dağ yeri — duman yeri." },
+    { "id": 227, "text": "Dağ yeriməsə, abdal yeriyər." },
+    { "id": 228, "text": "Dağ yıxılmasa — dərə dolmaz." },
+    { "id": 229, "text": "Dağa desən oğrudur, başını əyər." },
+    {
+      "id": 230,
+      "text": "Dağarcıq çörəyi ilə dolanan dövlət başına ip salmaz."
+    },
+    { "id": 231, "text": "Dağarcıq cuvaldan böyük oldu?!" },
+    { "id": 232, "text": "Dağarçığını çuval yanına qoyur." },
+    { "id": 233, "text": "Dağı dağ üstə qoyub." },
+    { "id": 234, "text": "Dağın da dərdi dağ boydadır." },
+    { "id": 235, "text": "Dağına baxar qar verər, bağına baxar bar verər." },
+    { "id": 236, "text": "Dağlar başına qış, İgid başına iş." },
+    {
+      "id": 237,
+      "text": "Dağlar dağımdır mǝnim, qǝm ovlağımdır mǝnim, dindirmǝyin ağlaram, yaman çağımdır mǝnim."
+    },
+    { "id": 238, "text": "Dağlar qarıynan, torpaq varıynan." },
+    { "id": 239, "text": "Dağlar marala qaldı." },
+    { "id": 240, "text": "Dağlar nə qədər uca olsa, üstündən yollar aşar." },
+    { "id": 241, "text": "Dağlar yalan götürməz." },
+    { "id": 242, "text": "Dalaşanda barışmağa üz saxla." },
+    { "id": 243, "text": "Dalda qalan dana qovlar." },
+    { "id": 244, "text": "Dalda qalanın payını yeyərlər." },
+    { "id": 245, "text": "Daldan atan topuqdan vurar." },
+    { "id": 246, "text": "Daldan gələn dadlı olar." },
+    { "id": 247, "text": "Dama-dama göl olar, axa-axa sel." },
+    { "id": 248, "text": "Dama-dama göl olar, dada-dada heç." },
+    { "id": 249, "text": "Damar-damar, daşı dələr." },
+    { "id": 250, "text": "Damara baxarlar, qan alarlar." },
+    { "id": 251, "text": "Damazlığını yeyən tamarzı qalar." },
+    { "id": 252, "text": "Damçı inadıyla daş dələr." },
+    { "id": 253, "text": "Damda verər azanı, yerdə sayar qazanı." },
+    { "id": 254, "text": "Damdan düşənin halını damdan düşən bilər." },
+    { "id": 255, "text": "Dan ulduzuna dönmüsən." },
+    { "id": 256, "text": "Dana böyüyər, çulu böyüməz." },
+    { "id": 257, "text": "Dana oynar, mıxını bərkidər." },
+    { "id": 258, "text": "Danışana dil vermir, yeriyənə yol." },
+    { "id": 259, "text": "Danışanı adam bilir, hürəni — it." },
+    { "id": 260, "text": "Danışarkən bülbül kimi cəh-cəh vurur." },
+    { "id": 261, "text": "Danışıqlı söz dağlar aşar." },
+    { "id": 262, "text": "Danışıram da pis oluram, danışmıram da." },
+    { "id": 263, "text": "Danışmaq dananı qurda verər." },
+    { "id": 264, "text": "Danışmaq gümüş olsa, danışmamaq qızıldır." },
+    {
+      "id": 265,
+      "text": "Dar küçədən keçmərəm, çadramı yellətmərəm, adımı qız qoymuşam, dul kişiyə getmərəm."
+    },
+    { "id": 266, "text": "Darayı, səni geyər hər ayı!" },
+    { "id": 267, "text": "Darğa əmim, daha nə qəmim!" },
+    { "id": 268, "text": "Darıya girən donuz payanı özünə qəbul eylər." },
+    { "id": 269, "text": "Daş altından su yeridir." },
+    { "id": 270, "text": "Daş atan bəlli, baş tutan bəlli." },
+    { "id": 271, "text": "Daş daşa, dırnaq daşa, siz savaşa, biz tamaşa." },
+    { "id": 272, "text": "Daş daşa söykənər — divar olar." },
+    { "id": 273, "text": "Daş daşı sındirar." },
+    { "id": 274, "text": "Daş düşdüyü yerdə ağır olar." },
+    { "id": 275, "text": "Daş düşdüyü yerdə qalar." },
+    { "id": 276, "text": "Daş qayaya rast gəlib." },
+    { "id": 277, "text": "Daş üstə əkin olmaz." },
+    { "id": 278, "text": "Daşa mıxı çaxanda biri mıxa, üçü özünə dəyər." },
+    { "id": 279, "text": "Daşdan pul çıxardar." },
+    { "id": 280, "text": "Daşdan yumşaq nə versən yeyər." }
+  ],
+  "E": [
+    {
+      "id": 281,
+      "text": "Ehtiyac adamı oğru eləyər."
+    },
+    {
+      "id": 282,
+      "text": "Ehtiyac igidi də sarsıdar."
+    },
+    {
+      "id": 283,
+      "text": "Ehtiyat igidin yaraşığıdır."
+    },
+    {
+      "id": 284,
+      "text": "Ehtiyat ehtiyacdan doğar."
+    },
+    {
+      "id": 285,
+      "text": "Ehtiyat şərtdəndir."
+    },
+    {
+      "id": 286,
+      "text": "Ehtiyatı əldən vermə."
+    },
+    {
+      "id": 287,
+      "text": "Ehtiyatlı adamın anası ağlamaz."
+    },
+    {
+      "id": 288,
+      "text": "Ehtiyatlı qoyunu qurd yeməz."
+    },
+    {
+      "id": 289,
+      "text": "Ehtiyatlı oğulun anası ağlamaz."
+    },
+    {
+      "id": 290,
+      "text": "Ehtiyatlılıq baş ağrısı gətirmir."
+    },
+    {
+      "id": 291,
+      "text": "El ad başına yığılar."
+    },
+    {
+      "id": 292,
+      "text": "El adamı igid deyə candan edər, comərd deyə maldan."
+    },
+    {
+      "id": 293,
+      "text": "El ağzı — çuval ağzı."
+    },
+    {
+      "id": 294,
+      "text": "El ağzı çuval ağzı deyil ki, bağlayasan."
+    },
+    {
+      "id": 295,
+      "text": "El ağzı faldır."
+    },
+    {
+      "id": 296,
+      "text": "El ağzı ilə quş tutulmaz."
+    },
+    {
+      "id": 297,
+      "text": "El ağzı ilə şorba içilməz."
+    },
+    {
+      "id": 298,
+      "text": "El ağzı kəramətdir."
+    },
+    {
+      "id": 299,
+      "text": "El ağzı torba deyil ki, büzəsən!"
+    },
+    {
+      "id": 300,
+      "text": "El ağzı — yel ağzı."
+    },
+    {
+      "id": 301,
+      "text": "El ağzına baxan, qarısını tez boşar."
+    },
+    {
+      "id": 302,
+      "text": "El ağzına düşən xeyir görməz."
+    },
+    {
+      "id": 303,
+      "text": "El ağzında bir sözün yüz rəngi var."
+    },
+    {
+      "id": 304,
+      "text": "El ağzını bağlamaq olmaz."
+    },
+    {
+      "id": 305,
+      "text": "El arasında it quyruğu kəsməzlər."
+    },
+    {
+      "id": 306,
+      "text": "El arxası çəmən olar."
+    },
+    {
+      "id": 307,
+      "text": "El atan daş dağdan aşar."
+    },
+    {
+      "id": 308,
+      "text": "El atan daş uzağa gedər."
+    },
+    {
+      "id": 309,
+      "text": "El atan daşa güc çatmaz."
+    },
+    {
+      "id": 310,
+      "text": "El atan daşı qaldırmaq olmaz."
+    },
+    {
+      "id": 311,
+      "text": "El atanı ər atar, el tutanı ər tutar."
+    },
+    {
+      "id": 312,
+      "text": "El atanı haqq da atar."
+    },
+    {
+      "id": 313,
+      "text": "El atdığı daş uzaq gedər."
+    },
+    {
+      "id": 314,
+      "text": "El ayranı yanğını soyutmaz."
+    },
+    {
+      "id": 315,
+      "text": "El baylı-yoxsullu olur."
+    },
+    {
+      "id": 316,
+      "text": "El bərəkallahı qarın cırar."
+    },
+    {
+      "id": 317,
+      "text": "El bir olsa, dağ oynadar yerindən, söz bir olsa, zərbi kərən sındırar."
+    },
+    {
+      "id": 318,
+      "text": "El çalan zurnanın səsi uzağa gedər."
+    },
+    {
+      "id": 319,
+      "text": "El dağlara dayanıb, çıraqlı indi oyanıb."
+    },
+    {
+      "id": 320,
+      "text": "El dedikcə saxlamaq olmaz."
+    },
+    {
+      "id": 321,
+      "text": "El dediyi mübarək olar."
+    },
+    {
+      "id": 322,
+      "text": "El dəli olsa, mollaya gedər, molla dəli olsa kimə gedər."
+    },
+    {
+      "id": 323,
+      "text": "El dəlisini çölə atmaz."
+    },
+    {
+      "id": 324,
+      "text": "El dəlisini aldatmaz."
+    },
+    {
+      "id": 325,
+      "text": "El dəlisiz olmaz."
+    },
+    {
+      "id": 326,
+      "text": "El el ilə, dəyirman yel ilə."
+    },
+    {
+      "id": 327,
+      "text": "El el ilə keçinmiş, qardaş qardaş ilə keçinməmiş."
+    },
+    {
+      "id": 328,
+      "text": "El el üstə sığınar."
+    },
+    {
+      "id": 329,
+      "text": "El el üstə sığışar, ev ev üstə sığışmaz."
+    },
+    {
+      "id": 330,
+      "text": "El elə dayandı, qeyli-qal indi oyandı."
+    },
+    {
+      "id": 331,
+      "text": "El elə sığışar, ev evə sığışmaz."
+    },
+    {
+      "id": 332,
+      "text": "El elin aynası, batmanı, tərəzisi."
+    },
+    {
+      "id": 333,
+      "text": "El elin aynasıdır."
+    },
+    {
+      "id": 334,
+      "text": "El elin itkisini bayatı oxuya-oxuya axtarar."
+    },
+    {
+      "id": 335,
+      "text": "El eybini sənə söyləyən sənin də eybini elə söylər."
+    },
+    {
+      "id": 336,
+      "text": "El harda, sən də orda."
+    },
+    {
+      "id": 337,
+      "text": "El gözü aydın görər."
+    },
+    {
+      "id": 338,
+      "text": "El gözü sərrafdır."
+    },
+    {
+      "id": 339,
+      "text": "El gözü tərəzidir."
+    },
+    {
+      "id": 340,
+      "text": "El gözü uzağı görər."
+    }
+  ],
+  "F": [
+    { "id": 340, "text": "Fağırı kim olsa, döyər." },
+    { "id": 341, "text": "Fağırın düşkünü, al geyinər qış günü." },
+    { "id": 342, "text": "Fağırlara verənə Allah verər." },
+    { "id": 343, "text": "Fağırların düzgünü, bez geyinər qış günü." },
+    { "id": 344, "text": "Fal yox, yumurta da yox." },
+    { "id": 345, "text": "Fala inanma, falsız da qalma." },
+    { "id": 346, "text": "Falçı fala baxar, canını oda yaxar." },
+    { "id": 347, "text": "Falçı falçıya fənd vurmaz." },
+    { "id": 348, "text": "Falın faldır, fərmanın allah." },
+    { "id": 349, "text": "Farsın qəzəli, türkün məsəli." },
+    { "id": 350, "text": "Fayda — zərər hesab başında məlum olar." },
+    { "id": 351, "text": "Fayda zərərin qardaşıdır." },
+    { "id": 352, "text": "Faydasız qohumdan faydalı yad yaxşıdır." },
+    { "id": 353, "text": "Fəqir əlinə baxırsa, sən cibinə bax." },
+    { "id": 354, "text": "Fəqirə axmaq deyərlər, kasıba gic." },
+    { "id": 355, "text": "Fəqirə həmdəm gəlməz, gələr baş ağrısı." },
+    { "id": 356, "text": "Fəqirin cibi boş, qəlbi doludur." },
+    { "id": 357, "text": "Fəqirin təsəllisi – ölümdür." },
+    { "id": 358, "text": "Fələk bağlar, fələk açar." },
+    { "id": 359, "text": "Fələk birin qurar, birini dağıdar." },
+    { "id": 360, "text": "Fələk güclü, mən gücsüz." },
+    { "id": 361, "text": "Fələk heç kimin rəyincə getməz." },
+    { "id": 362, "text": "Fələk kiminə təbil çaldırır, kiminə dümbələk." },
+    { "id": 363, "text": "Fələk yıxmayanı kələk yıxar." },
+    { "id": 364, "text": "Fələyə bel bağlamaq olmaz." },
+    { "id": 365, "text": "Fələyə şıllaq atır." },
+    {
+      "id": 366,
+      "text": "Fələyin belə-belə işləri çox, aslanı ac gəzdirər, tülkünü tox."
+    },
+    {
+      "id": 367,
+      "text": "Fələyin bir çuval qızılı var, hər gün birinin çiynindədir."
+    },
+    {
+      "id": 368,
+      "text": "Fələyin bir tabaq çörəyi var, hər zaman birinün başına qoyar."
+    },
+    { "id": 369, "text": "Fələyin çərxi dönər." },
+    { "id": 370, "text": "Fələyin gözü kordur." },
+    { "id": 371, "text": "Fələyin işinə bax, ayıya qaval çaldırır." },
+    { "id": 372, "text": "Fələyin qaydasıdır, dağı çəkər dağ üstdən." },
+    { "id": 373, "text": "Fələyin zoruna heç nə kar etməz." },
+    { "id": 374, "text": "Fənd edən yolda qalar." },
+    { "id": 375, "text": "Fənd fəndi kəsər, Allah hər ikisin." },
+    { "id": 376, "text": "Fənd nə bilir, fel ilə fənddə nə var?!" },
+    { "id": 377, "text": "Fərasətli oğulun papağı şiş durar." },
+    { "id": 378, "text": "Fərə çıxdığı qabığı tanıyır." },
+    { "id": 379, "text": "Fərhad ölüb, külüngünün səsi gəlmir." },
+    { "id": 380, "text": "Fərsiz qoyunu qurd yeyər." },
+    { "id": 381, "text": "Fərsiz oğul anasını ağladar." },
+    {
+      "id": 382,
+      "text": "Fərsiz oğul atasının gözünü çıxartdı ki, adına Koroğlu desinlər, amma kor kişinin oğlu dedilər."
+    },
+    { "id": 383, "text": "Fərsiz oğuldan bir qara daş əfzəldir." },
+    {
+      "id": 384,
+      "text": "Fərsiz övlad altıncı barmaq kimidir, kəsərsən ağrıdar, saxlarsan – eybəcər göstərər."
+    },
+    { "id": 385, "text": "Fikir adamı sərgərdan eylər." },
+    { "id": 386, "text": "Fikirdən iti gedən şey yoxdur." },
+    { "id": 387, "text": "Fikirsiz söz danışma." },
+    { "id": 388, "text": "Fikri nəysə, zikri də odur." },
+    { "id": 389, "text": "Filin bir fikri var, filbanın min." },
+    { "id": 390, "text": "Filin gücü xortumundadır, dəvənin gücü — dizində." },
+    { "id": 391, "text": "Fitə uyanın evi yıxılar." },
+    { "id": 392, "text": "Fit-fitnən gələn köpəyin qoyuna faydası olmaz." },
+    { "id": 393, "text": "Fitnəlikdə malını saxla, salamatlıqda başını." },
+    { "id": 394, "text": "Fitnəyə çuğlaşan peşimanluq çəkər." },
+    { "id": 395, "text": "Füqaranın gözü tox olar." },
+    { "id": 396, "text": "Fürsət əldə ikən yaxşılıq eylə." },
+    { "id": 397, "text": "Fürsət hər zaman ələ düşməz." }
+  ],
+  "G": [
+    {
+      "id": 398,
+      "text": "Gec gəldi, tez öyrəndi."
+    },
+    {
+      "id": 399,
+      "text": "Gec gələn qonaq olduğundan yeyər."
+    },
+    {
+      "id": 400,
+      "text": "Gecə dırnaq kəsən, gündüz nağıl danışan əlbət gora gedər."
+    },
+    {
+      "id": 401,
+      "text": "Geçə gəldi, necə gəldi."
+    },
+    {
+      "id": 402,
+      "text": "Gecə gəldi, gecə getdi, necə gəldi, necə getdi!"
+    },
+    {
+      "id": 403,
+      "text": "Gecə-gündüzüm bir olub."
+    },
+    {
+      "id": 404,
+      "text": "Gecə keçər, gündüz gələr."
+    },
+    {
+      "id": 405,
+      "text": "Geçə qara, cücə qara."
+    },
+    {
+      "id": 406,
+      "text": "Gecə şərab, gündüz qumar, bu əməllə sənət umar."
+    },
+    {
+      "id": 407,
+      "text": "Gecəni gündüzə qatmışam."
+    },
+    {
+      "id": 408,
+      "text": "Gecənin xeyrindən gündüzün şəri yaxşıdır."
+    },
+    {
+      "id": 409,
+      "text": "Gecəsi-gündüzü yoxdur."
+    },
+    {
+      "id": 410,
+      "text": "Gədadan bəy olmaz."
+    },
+    {
+      "id": 411,
+      "text": "Gədadan borc alma, ya toyda istər, ya bayramda."
+    },
+    {
+      "id": 412,
+      "text": "Gədaya borclu olsan, bir toyda deyər, bir də yasda."
+    },
+    {
+      "id": 413,
+      "text": "Gedən bağdan gedər, bağbandan nə gedər."
+    },
+    {
+      "id": 414,
+      "text": "Gedənə yoldaş, gələnə qardaş."
+    },
+    {
+      "id": 415,
+      "text": "Gedəni saxlamaq olmaz."
+    },
+    {
+      "id": 416,
+      "text": "Gedər bağlar qorası, qalar üzlər qarası."
+    },
+    {
+      "id": 417,
+      "text": "Gedər bu aclıq, gələr ucuzluq, amma səndə qaldı kömbə yanığı."
+    },
+    {
+      "id": 418,
+      "text": "Gen qaz, dərin qaz, özün düşərsən."
+    },
+    {
+      "id": 419,
+      "text": "Gendən baxana döyüş asan görünər."
+    },
+    {
+      "id": 420,
+      "text": "Get çanağım, gəl çanağım, ortalıqda sın çanağım."
+    },
+    {
+      "id": 421,
+      "text": "Get özünə dost qazan, düşmən ocaq başındadır."
+    },
+    {
+      "id": 422,
+      "text": "Getdi — görə bilməzsən, yıxdı — hörə bilməzsən, onu ki, sən deyirsən, onu daha görməzsən."
+    },
+    {
+      "id": 423,
+      "text": "Getdim dərdli yanına, o, məndən narın ağladı."
+    },
+    {
+      "id": 424,
+      "text": "Getdim savab edəm, günaha batdım."
+    },
+    {
+      "id": 425,
+      "text": "Getdim yarım yanına, qadam cicim canına."
+    },
+    {
+      "id": 426,
+      "text": "Getmə gözümdən, gedərəm özümdən."
+    },
+    {
+      "id": 427,
+      "text": "Getməsin o yaman ki, yerinə yaxşı gəlməz."
+    },
+    {
+      "id": 428,
+      "text": "Getmişdi kabab iyinə, gördü ki, eşşək dağlayırlar."
+    },
+    {
+      "id": 429,
+      "text": "Geyişməyən yerdən qan çıxarma."
+    },
+    {
+      "id": 430,
+      "text": "Gədadan bəy olmaz."
+    },
+    {
+      "id": 431,
+      "text": "Gədadan borc alma, ya toyda istər, ya bayramda."
+    },
+    {
+      "id": 432,
+      "text": "Gəl bir addım, gəlim iki addım."
+    },
+    {
+      "id": 433,
+      "text": "Gəl bu daşı ətəyindən tök!"
+    },
+    {
+      "id": 434,
+      "text": "Gəl deməsi yaxşıdır, get deməsi pis."
+    },
+    {
+      "id": 435,
+      "text": "Gəldi əcəl, verməz macal."
+    },
+    {
+      "id": 436,
+      "text": "Gəldi-gedəri saxlamaq olmaz."
+    },
+    {
+      "id": 437,
+      "text": "Gəldi qaşın qayırsın, vurdu gözün cıxartdı."
+    },
+    {
+      "id": 438,
+      "text": "Gəldi — qatıq, gəlmədi — ayran."
+    },
+    {
+      "id": 439,
+      "text": "Gələcəyin var, görəcəyin də var."
+    },
+    {
+      "id": 440,
+      "text": "Gələn adam qismətinə gələr."
+    },
+    {
+      "id": 441,
+      "text": "Gələn gedənin dədəsinə rəhmət oxudur."
+    },
+    {
+      "id": 442,
+      "text": "Gələn qismətini yeyər."
+    },
+    {
+      "id": 443,
+      "text": "Gələndə yel gətiri, el gətiri, sel gətiri, gedəndə yel aparı, el aparı, sel aparı."
+    },
+    {
+      "id": 444,
+      "text": "Gələnə yoldaş, gedənə qardaş."
+    },
+    {
+      "id": 445,
+      "text": "Gəlin anasına həm ağlar, həm də 'gedirəm' deyər."
+    },
+    {
+      "id": 446,
+      "text": "Gəlin atda, qisməti yadda."
+    },
+    {
+      "id": 447,
+      "text": "Gəlin atlandı, gör kimə düşdü."
+    },
+    {
+      "id": 448,
+      "text": "Gəlin bəzənənəcən toy sovuşdu."
+    },
+    {
+      "id": 449,
+      "text": "Gəlin bəzənincə toy əldən gedər."
+    },
+    {
+      "id": 450,
+      "text": "Gəlin gəlin deyil, gəldiyi yer gəlindir."
+    },
+    {
+      "id": 451,
+      "text": "Gəlin mənim süpürgəmdir, harda istəsəm orda oturar."
+    },
+    {
+      "id": 452,
+      "text": "Gəlin ocağa, bərəkət bucağa."
+    },
+    {
+      "id": 453,
+      "text": "Gəlin ocağa çəkər."
+    },
+    {
+      "id": 454,
+      "text": "Gəlin ocağa gələr."
+    },
+    {
+      "id": 455,
+      "text": "Gəlin oldun, dilini çək."
+    },
+    {
+      "id": 456,
+      "text": "Gəlin var gələr-gətirər, gəlin var gedər — itirər."
+    },
+    {
+      "id": 457,
+      "text": "Gəlindən qız olmaz."
+    },
+    {
+      "id": 458,
+      "text": "Gəlinin dini yox, qaynananın imanı."
+    },
+    {
+      "id": 459,
+      "text": "Gəlmisən ayran içməyə, gəlməmisən ara açmağa."
+    },
+    {
+      "id": 460,
+      "text": "Gəlmişdi kabab iyinə, gördü eşşək dağlayırlar."
+    },
+    {
+      "id": 461,
+      "text": "Gəlmişdi qazanc apara, mayanı da qoydu, getdi."
+    },
+    {
+      "id": 462,
+      "text": "Gəlmişdi saqqal dalınca, bığını da qoydu getdi."
+    },
+    {
+      "id": 463,
+      "text": "Gəmidə oturub gəmiçi ilə dava eləmə."
+    },
+    {
+      "id": 464,
+      "text": "Gəmisini batıran, çarığını axtarmaz."
+    },
+    {
+      "id": 465,
+      "text": "Gənclik gözəllik deməkdir."
+    },
+    {
+      "id": 466,
+      "text": "Gənclik ömrün baharıdır."
+    },
+    {
+      "id": 467,
+      "text": "Gənəşəkli don gen olar."
+    },
+    {
+      "id": 468,
+      "text": "Gəzdim İran, Turanı, cənnət gördüm buranı."
+    },
+    {
+      "id": 469,
+      "text": "Gəzən ayağa daş dəyər."
+    },
+    {
+      "id": 470,
+      "text": "Gəzən qızın qazancı ənlik-kirşana gedər."
+    },
+    {
+      "id": 471,
+      "text": "Gəzən şələ bağlamaz."
+    },
+    {
+      "id": 472,
+      "text": "Gəzər divanı-divanə, parası olmayan dərviş."
+    },
+    {
+      "id": 473,
+      "text": "Gəzərdə — qoyun əti, onun da boyun əti."
+    },
+    {
+      "id": 474,
+      "text": "Gəzəyən gəlinlə güləyən qızdan çarşı-bazardakı lotu yaxşıdır."
+    },
+    {
+      "id": 475,
+      "text": "Gəzəyən qızdan gəlin olmaz."
+    },
+    {
+      "id": 476,
+      "text": "Gicin buynuzu olmaz."
+    },
+    {
+      "id": 477,
+      "text": "Giləs bağın olsa, bilərsən sığırçın necə quşdur."
+    },
+    {
+      "id": 478,
+      "text": "Girirəm yaylağından, çıxıram qışlağından."
+    },
+    {
+      "id": 479,
+      "text": "Gizli düşmən ilan kimidi, sürünə-sürünə gələr."
+    }
+  ],
+
+  "H": [
+    { "id": 480, "text": "Həccə gedən gəldi, saca gedən gəlmədi." },
+    { "id": 481, "text": "Həcdən gələn mən, Məkkədən xəbər verən sən?" },
+    { "id": 482, "text": "Hacət dedik, höcət demədik." },
+    { "id": 483, "text": "Hacı hacını Məkkədə görər." },
+    { "id": 484, "text": "Hacı hacını Məkkədə tapar, dərviş dərvişi təkyədə." },
+    { "id": 485, "text": "Hacı Məkkəyə, dərviş təkyəyə." },
+    { "id": 486, "text": "Hacı saydığımızın xaçı qoltuğundan çıxdı." },
+    { "id": 487, "text": "Hacı yatmaz, yatarsa qalxmaz." },
+    {
+      "id": 488,
+      "text": "Hacılar Məkkəyə getdi - qapıları açıq qoyun, gəldilər - qapıları bağlayın."
+    },
+    { "id": 489, "text": "Haqdan keçmək olmaz." },
+    { "id": 490, "text": "Haqq batil olmaz." },
+    { "id": 491, "text": "Haqq daşı ağır olar." },
+    { "id": 492, "text": "Haqq doğrunun yarıdır." },
+    { "id": 493, "text": "Haqq əli bekar qalmaz; gec kəsər, karlı kəsər." },
+    { "id": 494, "text": "Haqq haqqı kəssə, Allah hər ikisini kəsər." },
+    { "id": 495, "text": "Haqq gəlsin, nahaqq gəlməsin." },
+    { "id": 496, "text": "Haqq iş gündən aydın olar." },
+    { "id": 497, "text": "Haqq işin nahaqqından qorxuram." },
+    { "id": 498, "text": "Haqq nazilər, üzülməz." },
+    { "id": 499, "text": "Haqq söz acı olar." },
+    { "id": 500, "text": "Haqq söz axar suları saxlar." },
+    { "id": 501, "text": "Haqq söz danışanın papağı yırtıq olar." },
+    { "id": 502, "text": "Haqq sözdən gül iyi gələr." },
+    { "id": 503, "text": "Haqq sözlə axan sular durular." },
+    { "id": 504, "text": "Haqq yeyənin adın qoyarlar Haqverdi." },
+    { "id": 505, "text": "Haqq yıxılan mərd olar." },
+    { "id": 506, "text": "Haqqı tanıyan xana baş əyməz." },
+    { "id": 507, "text": "Haqqın əli olsun, batilin yaxası." },
+    { "id": 508, "text": "Haqqın qarşısını almaq olmaz." },
+    { "id": 509, "text": "Haqqın verdiyinə şükür eləmək nemət artırır." },
+    { "id": 510, "text": "Haqlı var haqsız çıxar, haqsız var haqlı çıxar." },
+    { "id": 511, "text": "Halal incələr, ancaq üzülməz." },
+    { "id": 512, "text": "Halal mal heç yerə getməz." },
+    { "id": 513, "text": "Halalzadə barışdırdı, haramzadə qarışdırdı." },
+    { "id": 514, "text": "Halın bilmədiyin atın dalına keçmə." },
+    { "id": 515, "text": "Halva-halva deməklə ağız şirin olmaz." },
+    { "id": 516, "text": "Halvaçı qızı - daha şirin." },
+    { "id": 517, "text": "Hamam suyu ilə özünə dost tutur." },
+    { "id": 518, "text": "Hamam suyunnan xətir-könül görür." },
+    { "id": 519, "text": "Hamı bilir dağda kəklik gözəldir." },
+    {
+      "id": 520,
+      "text": "Hamı deyir, mədrəbazın gözü çıxsın - bilmirəm mədrəbaz kimdi."
+    },
+    { "id": 521, "text": "Hamını yarın dərdi öldürür, bunu da qarın dərdi." },
+    { "id": 522, "text": "Hamının ağlı bir olsa, keçiyə çoban tapılmaz." },
+    { "id": 523, "text": "Hamıya adət oldu, bizə bidət?!" }
+  ],
+
+  "X": [
+    {
+      "id": 523,
+      "text": "Xain adam xoflu olar, kor ürkəyən."
+    },
+    {
+      "id": 524,
+      "text": "Xain dost, dəli düşmən, göz tikər ölən günə."
+    },
+    {
+      "id": 525,
+      "text": "Xain gözdən, mərd üzdən bilinər."
+    },
+    {
+      "id": 526,
+      "text": "Xain xəyanətinin cəzasını mütləq çəkər."
+    },
+    {
+      "id": 527,
+      "text": "Xain xofli olar, kor hürkən."
+    },
+    {
+      "id": 528,
+      "text": "Xain qorxaq olar."
+    },
+    {
+      "id": 529,
+      "text": "Xain suçlu olar"
+    },
+    {
+      "id": 530,
+      "text": "Xainə sürü göndər, yenə cibin güdər."
+    },
+    {
+      "id": 531,
+      "text": "Xal üzün bəzəyidir."
+    },
+    {
+      "id": 532,
+      "text": "Xala evinə dadanan, ər evində dayanmaz."
+    },
+    {
+      "id": 533,
+      "text": "Xalam bildi - aləm bildi."
+    },
+    {
+      "id": 534,
+      "text": "Xala, xala təndiri qala, aşı bişirib, nimçəni yala."
+    },
+    {
+      "id": 535,
+      "text": "Xala, xala təndiri qala, kösövü götür, odu qurdala."
+    },
+    {
+      "id": 536,
+      "text": "Xalam gəzəyən olsa idi, bizə də gələrdi."
+    },
+    {
+      "id": 537,
+      "text": "Xalam kişi olsa idi, ona dayı deyərdim."
+    },
+    {
+      "id": 538,
+      "text": "Xalamdan bir dilək dilərəm, versə də xalamdır, verməsə də."
+    },
+    {
+      "id": 539,
+      "text": "Xalamın saqqalı olsaydı, mən ona dayı deyərdim."
+    },
+    {
+      "id": 540,
+      "text": "Xalça salan özü oturar."
+    },
+    {
+      "id": 541,
+      "text": "Xalçalı gəl, xalçalı get."
+    },
+    {
+      "id": 542,
+      "text": "Xalına bax, xalı toxu."
+    },
+    {
+      "id": 543,
+      "text": "Xalını xovuna sığallarlar."
+    },
+    {
+      "id": 544,
+      "text": "Xalının tozu tükənər, dəlinin sözü tükənməz."
+    },
+    {
+      "id": 545,
+      "text": "Xalq gedər quş gətirər, Xanalı bayquş gətirər."
+    },
+    {
+      "id": 546,
+      "text": "Xalq kəsən barmaq qanamaz."
+    },
+    {
+      "id": 547,
+      "text": "Xalq qız verib quda qazandı, biz qız verib qada qazandıq."
+    },
+    {
+      "id": 548,
+      "text": "Xalq necə, biz də elə."
+    },
+    {
+      "id": 549,
+      "text": "Xalqa adətdir, bizə bidət?."
+    },
+    {
+      "id": 550,
+      "text": "Xalqa it hürəndə, bizə də çaqqal ulayar."
+    },
+    {
+      "id": 551,
+      "text": "Xalqa qarın ağrısı gələndə bunun tuman bağı əlindədi."
+    },
+    {
+      "id": 552,
+      "text": "Xalqın ağzı faldır."
+    },
+    {
+      "id": 553,
+      "text": "Xalqın ağzına qıfıl vurmaq olmaz."
+    },
+    {
+      "id": 554,
+      "text": "Xalqın ağzını bağlamaq olmaz."
+    },
+    {
+      "id": 555,
+      "text": "Xalqın eybini söyləyən, özü eyibli olar."
+    },
+    {
+      "id": 556,
+      "text": "Xalqın fikrini çəkib qocalmaqdansa, öz dərdini çək, ucal."
+    },
+    {
+      "id": 557,
+      "text": "Xalqın qapısını el döyür, bizim qapımızı - yel."
+    },
+    {
+      "id": 558,
+      "text": "Xalqın sədası, haqqın nidasıdır."
+    },
+    {
+      "id": 559,
+      "text": "Xalqınkı ipək olur, bizimki köpək."
+    },
+    {
+      "id": 560,
+      "text": "Xallı üz göyçək olar."
+    },
+    {
+      "id": 561,
+      "text": "Xaltanı aslan boynuna vurmazlar."
+    },
+    {
+      "id": 562,
+      "text": "Xalvar sənin evində, talvar sənin evində, daş vurarsan toz çıxar, nə var sənin evində?"
+    },
+    {
+      "id": 563,
+      "text": "Xam atı minməkdən, çullamağı çətindir."
+    },
+    {
+      "id": 564,
+      "text": "Xam dəmir döyülməz."
+    },
+    {
+      "id": 565,
+      "text": "Xam yer axtarır bostan atmağa."
+    },
+    {
+      "id": 566,
+      "text": "Xamın gözü böyük olar."
+    },
+    {
+      "id": 567,
+      "text": "Xamır yeyənə etibar yoxdu."
+    },
+    {
+      "id": 568,
+      "text": "Xan arıqlayanda rəiyyətin canı çıxar."
+    },
+    {
+      "id": 569,
+      "text": "Xan evi - bəla evi."
+    },
+    {
+      "id": 570,
+      "text": "Xan eylər xan divanı."
+    },
+    {
+      "id": 571,
+      "text": "Xan qapısında işləyənin ayağını daş aparar."
+    },
+    {
+      "id": 572,
+      "text": "Xan qulluğuna gedən atlı gedər, piyada qayıdar."
+    },
+    {
+      "id": 573,
+      "text": "Xan məni dindirdi."
+    },
+    {
+      "id": 574,
+      "text": "Xana nökər olanın börkü haça olar."
+    },
+    {
+      "id": 575,
+      "text": "Xana yaradı, bəyə yaradı, keçəl Xondi, sənə yaramadı?!"
+    },
+    {
+      "id": 576,
+      "text": "Xandan gələn nökərəm, dişlərini tökərəm."
+    },
+    {
+      "id": 577,
+      "text": "Xanəndə məclisin bəzəyidir."
+    },
+    {
+      "id": 578,
+      "text": "Xanım-xanım dedilər, axçacığım yedilər, eylə ki, axşam qurtardı, zır tut xanım, dedilər."
+    },
+    {
+      "id": 579,
+      "text": "Xanım xanım dedilər, var-yoxunu yedilər."
+    },
+    {
+      "id": 580,
+      "text": "Xanım qırsa - qəza, nökər qırsa cəza."
+    },
+    {
+      "id": 581,
+      "text": "Xanım qız xalasına oxşar, yaxşı oğlan – dayısına."
+    },
+    {
+      "id": 582,
+      "text": "Xanım sındıran qabın səsi çıxmaz."
+    },
+    {
+      "id": 583,
+      "text": "Xanın gözü dörd olar."
+    },
+    {
+      "id": 584,
+      "text": "Xanla plov yemirəm, bığlarım yağa batar."
+    },
+    {
+      "id": 585,
+      "text": "Xaraba şəhərə qala nə lazım."
+    },
+    {
+      "id": 586,
+      "text": "Xarabadan tüstü çıxmaz."
+    },
+    {
+      "id": 587,
+      "text": "Xarallara sığmayan canım, torba-dağarcığz sıxıldı."
+    },
+    {
+      "id": 588,
+      "text": "Xasiyyətini bilmədiyin atın arxasına keçmə."
+    },
+    {
+      "id": 589,
+      "text": "Xasiyyətini bilmədiyin itin quyruğunu əlləmə."
+    },
+    {
+      "id": 590,
+      "text": "Xata xata üstündən gəlməsə, bir xataya nə var."
+    },
+    {
+      "id": 591,
+      "text": "Xata məndən, əta səndən."
+    },
+    {
+      "id": 592,
+      "text": "Xeyir Allahdan, şər şeytandan."
+    },
+    {
+      "id": 593,
+      "text": "Xeyir de, xeyir taparsan."
+    },
+    {
+      "id": 594,
+      "text": "Xeyir dilə qonşuna, xeyirgəlsin başına."
+    },
+    {
+      "id": 595,
+      "text": "Xeyir xeyri tapar, şər də şəri."
+    },
+    {
+      "id": 596,
+      "text": "Xeyir xəbər ağır ayaq olar."
+    },
+    {
+      "id": 597,
+      "text": "Xeyir içində şərim olunca, şər içində xeyrim olsun."
+    },
+    {
+      "id": 598,
+      "text": "Xeyir ilə şər qardaşdır."
+    }
+  ],
+  "I": [
+    { "id": 599, "text": "İçdim üzüm suyunu, tökdüm üzüm suyunu." },
+    { "id": 600, "text": "İçim özümü yandırır, çölüm özgəsini." },
+    { "id": 601, "text": "İgid arxasinda igid gizlənər." },
+    { "id": 602, "text": "İgid ağzını açmaz, əlini açar." },
+    { "id": 603, "text": "İgid basdığın kəsməz." },
+    { "id": 604, "text": "İgid döyüşdə məlum olar." },
+    { "id": 605, "text": "İgid qovqasız olmaz." },
+    { "id": 606, "text": "İgid igidə xor baxmaz." },
+    { "id": 607, "text": "İgid ilqarından dönməz, dəvə ovsarından." },
+    { "id": 608, "text": "İgid ləqəbilə tanınar." },
+    { "id": 609, "text": "İgid min yaşar, fürsət bir düşər." },
+    {
+      "id": 610,
+      "text": "İgid odur atdan düşə atlana, İgid odur hər yaraya qatlana."
+    },
+    { "id": 611, "text": "İgid odur yaman gündə əl tuta." },
+    { "id": 612, "text": "İgid oğul cavan eylər atanı." },
+    { "id": 613, "text": "İgid oğul dayısına çəkər." },
+    { "id": 614, "text": "İgid oğul düşmənə boyun əyməz." },
+    { "id": 615, "text": "İgid oğul düşmənə əyilməz." },
+    { "id": 616, "text": "İgid ölər, adı qalar." },
+    { "id": 617, "text": "İgid ölər adı qalar, müxənnətin nəyi qalar?!" },
+    { "id": 618, "text": "İgid ya tər altında, ya yer altında" },
+    { "id": 619, "text": "İgid yarasına igid qatlanar." },
+    { "id": 620, "text": "İgid yarasız ölməz." },
+    { "id": 621, "text": "İgiddə öldü olar, döndü olmaz." },
+    { "id": 622, "text": "İgidim igid olsun, kol dibi evim olsun." },
+    { "id": 623, "text": "İgidin adı çıxınca canı çıxar." },
+    { "id": 624, "text": "İgidin başı qalda gərək." },
+    { "id": 625, "text": "İgidin əli işdə gərək." },
+    { "id": 626, "text": "İgidin igiddən nəyi artıqdır? — Ehtiyatı." },
+    { "id": 627, "text": "İgidin sözü ilə işi bir olar." },
+    { "id": 628, "text": "İgidin süfrəsi açıq olar." },
+    { "id": 629, "text": "İgidin yaraşığı sınağdır." },
+    { "id": 630, "text": "İgidlik biləklə deyil, ürəklədir." },
+    { "id": 631, "text": "İgidlik döyüşdə məlum olar." },
+    { "id": 632, "text": "İgidlik ondur: biri zordur, doqquzu fənd." },
+    { "id": 633, "text": "İki arvadlı ev zibilli olar." },
+    { "id": 634, "text": "İki arvadlı evdə bərəkət olmaz." },
+    { "id": 635, "text": "İki arvadlı gecə şamsız qalar." },
+    { "id": 636, "text": "İki arvadlı kişinin ağzının dadı olmaz." },
+    { "id": 637, "text": "İki arvadlı kişinin yaxası çırıq olar." },
+    { "id": 638, "text": "İki bülbül bir budaqda oxumaz." },
+    { "id": 639, "text": "İki daşı çaxaram, tamaşaya baxaram." },
+    { "id": 640, "text": "İki dəvə əlləşəndə otluq xarab olar." },
+    { "id": 641, "text": "İki düşün, bir danış." },
+    { "id": 642, "text": "İki eşşək bir axurdan arpa yeməz." },
+    { "id": 643, "text": "İki evin urvasından bir fətir olar." },
+    { "id": 644, "text": "İki fikir bir fikirdən daha yaxşıdır." },
+    { "id": 645, "text": "İki güləşənin biri basılar." },
+    { "id": 646, "text": "İki it bir aslana dov gələr." },
+    { "id": 647, "text": "İki itin arasına para sümük atmazlar." },
+    { "id": 648, "text": "İki kəsək bir daşa əvəz olmaz." },
+    { "id": 649, "text": "İki kişi danışanda, üçüncüsü sən olma." },
+    { "id": 650, "text": "İki qardaş savaşıb, axmaq buna inanıb." },
+    { "id": 651, "text": "İki qapıda gəzən köpək ac qalar." },
+    { "id": 652, "text": "İki qibləyə namaz olmaz." },
+    { "id": 653, "text": "İki qılınc bir qına sığmaz." },
+    { "id": 654, "text": "İki qoçun başı bir qazanda qaynamaz." },
+    { "id": 655, "text": "İki verməzsən, bir ala bilməzsən." },
+    { "id": 656, "text": "İki yana baxan çaş qalar." },
+    { "id": 657, "text": "İki yumruq bir başa yükdür." },
+    { "id": 658, "text": "İl baharından bilinər." },
+    { "id": 659, "text": "İl xırmansız olmaz." },
+    { "id": 660, "text": "İl ötər, ay dolanar, şənbə düşər novruza." },
+    { "id": 661, "text": "İl var bir günə dəyməz, gün var min aya dəyər." },
+    { "id": 662, "text": "İlan balasını da çalar." },
+    {
+      "id": 663,
+      "text": "İlan yarpızdan qaçar, hara getsə, yenə qarşısına çıxar."
+    },
+    { "id": 664, "text": "İlan çalan yatar, ac yatmaz." },
+    { "id": 665, "text": "İlan çıxdığı bacanı yaxşı tanıyır." },
+    { "id": 666, "text": "İlan hər yerə əyri gedər, öz yuvasına düz." },
+    { "id": 667, "text": "İlan ilanı yeməyincə əjdaha olmaz." },
+    { "id": 668, "text": "İlan qabığını dəyişər, xasiyyətini dəyişməz." },
+    {
+      "id": 669,
+      "text": "İlan öz əyrisini bilməz, deyər; dəvənin boynu əyridir."
+    },
+    { "id": 670, "text": "İlan öz qonşusunu çalmaz." },
+    { "id": 671, "text": "İlan ulduz görməsə ölməz." },
+    { "id": 672, "text": "İlan vuran ala çatıdan qorxar." },
+    { "id": 673, "text": "İlana ağu verən kərtənkələdi." },
+    { "id": 674, "text": "İlana balası qənim olar." },
+    { "id": 675, "text": "İlanı tapdamasan sancmaz." },
+    { "id": 676, "text": "İlanı özgə əli ilə tutur." },
+    { "id": 677, "text": "İlanı Seyid Əhməd əliylə tutur." },
+    { "id": 678, "text": "İlanı sən tut, mən gözünə darı salım." },
+    { "id": 679, "text": "İlanı yaralı buraxmazlar." },
+    { "id": 680, "text": "İlanı yuvasında öldür." },
+    { "id": 681, "text": "İlanın ağına da lənət, qarasına da." },
+    { "id": 682, "text": "İlanın başı ağrıyanda yolun ortasında yatar." },
+    { "id": 683, "text": "İlanın başın düşmənin əlinnən əz." },
+    { "id": 684, "text": "İlanın quyruğun basmasan, səni sancmaz." },
+    {
+      "id": 685,
+      "text": "İlanın zəhləsi yarpızdan gedər, o da bitərburnunun dibində."
+    },
+    { "id": 686, "text": "İlxıçının qazancı havayı minməkdir." },
+    { "id": 687, "text": "İlikli sümük ağır olar." },
+    { "id": 688, "text": "İlin axır çərşənbəsi kimiyə düşər, kimiyə yox." },
+    { "id": 689, "text": "İlqar — iman." },
+    { "id": 690, "text": "İlqarı olmayanın imanı da olmaz." },
+    { "id": 691, "text": "İmam əzizdir, qara pul imamdan da əzizdir." },
+    { "id": 692, "text": "İmam şaftalı ağacı deyil ki, hər yerdə bitə." },
+    { "id": 693, "text": "İmam tək-tək tapılar, tin başı şümürdür." },
+    { "id": 694, "text": "İman əzizdir." },
+    { "id": 695, "text": "İmandan qonşu payı olmaz." }
+  ],
+  "K": [
+    {
+      "id": 696,
+      "text": "Kabab iyinə getmişdi, gördü eşşək dağlayırlar."
+    },
+    {
+      "id": 697,
+      "text": "Kabab qanlı, igid canlı."
+    },
+    {
+      "id": 698,
+      "text": "Kababı köz öldürər, igidi söz."
+    },
+    {
+      "id": 699,
+      "text": "Kafır əppəyin yeyən, kafir muzdına salavat verər."
+    },
+    {
+      "id": 700,
+      "text": "Kağız dözər, qələm yazar."
+    },
+    {
+      "id": 701,
+      "text": "Kalını yetişmişinə qatıbdır."
+    },
+    {
+      "id": 702,
+      "text": "Kamal ata kürkü deyil ki, irs ilə övlada keçə."
+    },
+    {
+      "id": 703,
+      "text": "Kamalsızın iynəsi gödək, sapı uzun olar."
+    },
+    {
+      "id": 704,
+      "text": "Kamil adam az danışar."
+    },
+    {
+      "id": 705,
+      "text": "Kamil bağban çəkər bağın səfasın."
+    },
+    {
+      "id": 706,
+      "text": "Kamil bir palançı olsa da insan, Yaxşıdır yarımçıq papaqçılıqdan."
+    },
+    {
+      "id": 707,
+      "text": "Kamil insan kəlamından bəlli olar."
+    },
+    {
+      "id": 708,
+      "text": "Kamil ovçu boşuna güllə atmaz."
+    },
+    {
+      "id": 709,
+      "text": "Kar eşitdiyin, kor tutduğun buraxmaz."
+    },
+    {
+      "id": 710,
+      "text": "Kar eşitməz — yaraşdırar, kor görməz — quraşdırar."
+    },
+    {
+      "id": 711,
+      "text": "Kar iki dəfə gülər."
+    },
+    {
+      "id": 712,
+      "text": "Kar iti qurd aparar."
+    },
+    {
+      "id": 713,
+      "text": "Kar könlündəkini anlar."
+    },
+    {
+      "id": 714,
+      "text": "Kar nə bilir taqqıltı haradan gəlir."
+    },
+    {
+      "id": 715,
+      "text": "Kar özünə sərf eləyəni eşidər."
+    },
+    {
+      "id": 716,
+      "text": "Kar üçün iki dəfə azan verilməz."
+    },
+    {
+      "id": 717,
+      "text": "Karın başına balta vurdular, dedi: bu nə taqqatuqdur."
+    },
+    {
+      "id": 718,
+      "text": "Karvandan üzülən sərgərdan qalar."
+    },
+    {
+      "id": 719,
+      "text": "Kasa aşdan irəli olub."
+    },
+    {
+      "id": 720,
+      "text": "Kasa kasaya girməyincə qarnı qabarmaz."
+    },
+    {
+      "id": 721,
+      "text": "Kasad bazarın gəliri olmaz."
+    },
+    {
+      "id": 722,
+      "text": "Kasıb at tapanda ot tapmaz, ot tapanda — at."
+    },
+    {
+      "id": 723,
+      "text": "Kasıb bacını varlı qardaş istəməz."
+    },
+    {
+      "id": 724,
+      "text": "Kasıb cavan mərd olar."
+    },
+    {
+      "id": 725,
+      "text": "Kasıb çıxarın bilsə, gündəliyə mahud geyər."
+    },
+    {
+      "id": 726,
+      "text": "Kasıb çıraq yandırar, dövlətlinin pulunu sayar."
+    },
+    {
+      "id": 727,
+      "text": "Kasıb ət tapanda od tapmaz, od tapanda ət."
+    },
+    {
+      "id": 728,
+      "text": "Kasıb geyəndə — hardandır, — deyərlər, varlı geyəndə — mübarək."
+    },
+    {
+      "id": 729,
+      "text": "Kasıb xərcini bilsə, gündəliyinə məxmər geyər."
+    },
+    {
+      "id": 730,
+      "text": "Kasıb işi — güc-qüvvətlə, varlı — var-dövlətlə."
+    },
+    {
+      "id": 731,
+      "text": "Kasıb işləyər, ağa dişləyər."
+    },
+    {
+      "id": 732,
+      "text": "Kasıb itinin adını Gümüş qoyar."
+    },
+    {
+      "id": 733,
+      "text": "Kasıb köçəndə varlanar."
+    },
+    {
+      "id": 734,
+      "text": "Kasıb oğurluğa çıxdı, Ay da bir yandan çıxdı."
+    },
+    {
+      "id": 735,
+      "text": "Kasıb öləndə molla xəstə olar."
+    },
+    {
+      "id": 736,
+      "text": "Kasıb ölüsünə yas saxlamaz."
+    },
+    {
+      "id": 737,
+      "text": "Kasıb padşah olsa, arvadı evdən qovar."
+    },
+    {
+      "id": 738,
+      "text": "Kasıb pul tapdı, qoymağa yer tapmadı."
+    },
+    {
+      "id": 739,
+      "text": "Kasıb ürəkli olar."
+    },
+    {
+      "id": 740,
+      "text": "Kasıb varlıya çatammaz, amma varlı kasıba çatar."
+    },
+    {
+      "id": 741,
+      "text": "Kasıba bazarın tulası da hürər."
+    },
+    {
+      "id": 742,
+      "text": "Kasıba qul ol, varlıya oğul olma."
+    },
+    {
+      "id": 743,
+      "text": "Kasıba oğul olunca, dövlətliyə qul ol."
+    },
+    {
+      "id": 744,
+      "text": "Kasıbdan Allah da bezardır."
+    },
+    {
+      "id": 745,
+      "text": "Kasıbı dəvə üstə böv sancar."
+    },
+    {
+      "id": 746,
+      "text": "Kasıbın ağzı aşa dəyəndə, başı daşa dəyər."
+    },
+    {
+      "id": 747,
+      "text": "Kasıbın bir atı var, o da ayğır."
+    },
+    {
+      "id": 748,
+      "text": "Kasıbın bir oğlu oldu, o da boynu əyri."
+    },
+    {
+      "id": 749,
+      "text": "Kasıbın danası dövlətlinin tayasına baxar."
+    },
+    {
+      "id": 750,
+      "text": "Kasıbın dörd düşməni var: — it, bit, yasavul, molla."
+    },
+    {
+      "id": 751,
+      "text": "Kasıbın dürməyi yavan olsa, dili yağlıdır."
+    },
+    {
+      "id": 752,
+      "text": "Kasıbın əli heç nəyə çatmaz."
+    },
+    {
+      "id": 753,
+      "text": "Kasıbın əlində qoğal gülməli görünər."
+    },
+    {
+      "id": 754,
+      "text": "Kasıbın gözü tox olar."
+    },
+    {
+      "id": 755,
+      "text": "Kasıbın günü — itin günü."
+    },
+    {
+      "id": 756,
+      "text": "Kasıbın halını kasıbdan sor."
+    },
+    {
+      "id": 757,
+      "text": "Kasıbın halını soruşan az olar."
+    },
+    {
+      "id": 758,
+      "text": "Kasıbın malı başının altında gərək."
+    },
+    {
+      "id": 759,
+      "text": "Kasıbın malını aldın, canını aldın, birdir."
+    },
+    {
+      "id": 760,
+      "text": "Kasıbın oğlu olunca, dövlətlinin qulu ol."
+    },
+    {
+      "id": 761,
+      "text": "Kasıbın sacı çörəyi qurtaranda qızar."
+    },
+    {
+      "id": 762,
+      "text": "Kasıbın sözü, ulğunun közü."
+    },
+    {
+      "id": 763,
+      "text": "Kasıbın toyunda gecə qısa olar."
+    },
+    {
+      "id": 764,
+      "text": "Kasıbın uşağı, varlının quzusu çox olar."
+    },
+    {
+      "id": 765,
+      "text": "Kasıblıq eyib deyil, oğurluq eyibdir."
+    },
+    {
+      "id": 766,
+      "text": "Kaş mal zərəri olsun, insan zərəri olmasın."
+    }
+  ],
+  "Q": [
+    {
+      "id": 767,
+      "text": "Qabağa keçirsən, deyirlər bicdir, dala qalırsan, deyirlər gicdir."
+    },
+    {
+      "id": 768,
+      "text": "Qabağım qovurğa qovurur, dalım saman sovurur."
+    },
+    {
+      "id": 769,
+      "text": "Qabağına baxmayanın ayağına daş dəyər."
+    },
+    {
+      "id": 770,
+      "text": "Qabil şagird ustad olar ustada."
+    },
+    {
+      "id": 771,
+      "text": "Qaçağı el saxlar."
+    },
+    {
+      "id": 772,
+      "text": "Qaçan da Allahı çağırır, qovan da."
+    },
+    {
+      "id": 773,
+      "text": "Qaçanı qovmazlar, yıxılanı vurmazlar."
+    },
+    {
+      "id": 774,
+      "text": "Qaçırılan fürsət bir də düşməz ələ."
+    },
+    {
+      "id": 775,
+      "text": "Qaçmaq da hünərdəndir."
+    },
+    {
+      "id": 776,
+      "text": "Qaçmaq da hünərdir, qovmaq da."
+    },
+    {
+      "id": 777,
+      "text": "Qadın bənnadır, kişi fəhlə."
+    },
+    {
+      "id": 778,
+      "text": "Qafil başın ağrısını beyin bilər."
+    },
+    {
+      "id": 779,
+      "text": "Qafil quşun ovçusu çox olar."
+    },
+    {
+      "id": 780,
+      "text": "Qafil yaşamaqdan ölmək yaxşıdır."
+    },
+    {
+      "id": 781,
+      "text": "Qala içəridən alınar."
+    },
+    {
+      "id": 782,
+      "text": "Qalan işə qar yağar."
+    },
+    {
+      "id": 783,
+      "text": "Qamış bizim eldə bitər, sümsüyünü ləzgi çalar."
+    },
+    {
+      "id": 784,
+      "text": "Qamış ola, çamış ola, görməmiş ola..."
+    },
+    {
+      "id": 785,
+      "text": "Qan eylə qanun ilə."
+    },
+    {
+      "id": 786,
+      "text": "Qan yol verməz."
+    },
+    {
+      "id": 787,
+      "text": "Qanacaqlı həm qanar, həm qandırar."
+    },
+    {
+      "id": 788,
+      "text": "Qanadı quşdan kirə istəməz."
+    },
+    {
+      "id": 789,
+      "text": "Qanan ilə daş daşı, qanmaz ilə yemə aşı."
+    },
+    {
+      "id": 790,
+      "text": "Qanan kim, qandıran kim?"
+    },
+    {
+      "id": 791,
+      "text": "Qanana bir söz yetər, qanmayana yüz oxu."
+    },
+    {
+      "id": 792,
+      "text": "Qanana da can qurban, qanmayana da, dad yarımçıq əlindən."
+    },
+    {
+      "id": 793,
+      "text": "Qanı qan ilə yumayıblar."
+    },
+    {
+      "id": 794,
+      "text": "Qanı su ilə yuyarlar."
+    },
+    {
+      "id": 795,
+      "text": "Qanlıdan qada əskik olmaz."
+    },
+    {
+      "id": 796,
+      "text": "Qanlını qan tutar."
+    },
+    {
+      "id": 797,
+      "text": "Qanmaza hörmət edərsən, deyər:-Məndən qorxur."
+    },
+    {
+      "id": 798,
+      "text": "Qanmaza qoşulanı qanmaz çağırarlar."
+    },
+    {
+      "id": 799,
+      "text": "Qanmaza yumruğunu əvvəl düyünlə, sonra söz qandır."
+    },
+    {
+      "id": 800,
+      "text": "Qanun zora tabedir"
+    },
+    {
+      "id": 801,
+      "text": "Qapan it dişin göstərməz."
+    },
+    {
+      "id": 802,
+      "text": "Qapıdan qovursan, bacadan gəlir."
+    },
+    {
+      "id": 803,
+      "text": "Qapılan qapanın, tapılan tapanındır."
+    },
+    {
+      "id": 804,
+      "text": "Qar dağa çıxar dadlanar."
+    },
+    {
+      "id": 805,
+      "text": "Qar gedəndən sonra qaranın üstü açılar."
+    },
+    {
+      "id": 806,
+      "text": "Qar ili - var ili"
+    },
+    {
+      "id": 807,
+      "text": "Qar yağmağıynan qarğa ağarmaz."
+    },
+    {
+      "id": 808,
+      "text": "Qara gün adamı tez qocaldar."
+    },
+    {
+      "id": 809,
+      "text": "Qarlı qış barlı olar."
+    },
+    {
+      "id": 810,
+      "text": "Qara dolaşaya qırmızı papuş yaraşmaz."
+    },
+    {
+      "id": 811,
+      "text": "Qara eşşək, ağ palan?!"
+    },
+    {
+      "id": 812,
+      "text": "Qara eşşəyin başına yüyən vuranda qatır olmaz."
+    },
+    {
+      "id": 813,
+      "text": "Qara günün ömrü az olar."
+    },
+    {
+      "id": 814,
+      "text": "Qara xəbər tez yayılar."
+    },
+    {
+      "id": 815,
+      "text": "Qara qız bəzənincə toy əldən gedər."
+    },
+    {
+      "id": 816,
+      "text": "Qara qız gəlin oldu, ürəyi sərin oldu."
+    },
+    {
+      "id": 817,
+      "text": "Qara qız gəlməsəydi, külbəni kim odlardı."
+    },
+    {
+      "id": 818,
+      "text": "Qara qızdan xatın olmaz, boz eşşəkdən qatır olmaz."
+    },
+    {
+      "id": 819,
+      "text": "Qara qızın baxtı olsaydı, anadan ağ doğulardı."
+    },
+    {
+      "id": 820,
+      "text": "Qara qul özünü öldürdü ki, ağasına zərəri olsun."
+    },
+    {
+      "id": 821,
+      "text": "Qara qula şahlıq versən, əvvəl nənəsinin əmcəyini kəsər."
+    },
+    {
+      "id": 822,
+      "text": "Qara məni basınca mən qaranı basım."
+    },
+    {
+      "id": 823,
+      "text": "Qarabaxt dağlara çıxanda dağları duman alar."
+    },
+    {
+      "id": 824,
+      "text": "Qaraca üzüm var, doğruca sözüm."
+    },
+    {
+      "id": 825,
+      "text": "Qaraçı bir ələk verib, elə bil evə dirək verib."
+    },
+    {
+      "id": 826,
+      "text": "Qaraçı qaraçıya öpüş verməz."
+    },
+    {
+      "id": 827,
+      "text": "Qaraçının koyxası qaraçı olar."
+    },
+    {
+      "id": 828,
+      "text": "Qaradan artıq boya olmaz."
+    },
+    {
+      "id": 829,
+      "text": "Qaraquş sümüyü ölçər udar."
+    },
+    {
+      "id": 830,
+      "text": "Qaraquşa xeyir öz dimdiyindən toxunar."
+    },
+    {
+      "id": 831,
+      "text": "Qaranlıqda halva yeyənin sirrini Xuda bilir."
+    },
+    {
+      "id": 832,
+      "text": "Qardaş qardaşı bıçaqlar, dönüb yenə qucaqlar."
+    },
+    {
+      "id": 833,
+      "text": "Qardaş qardaşın yoxluğun istər, ölümün istəməz."
+    },
+    {
+      "id": 834,
+      "text": "Qardaş yaman gündə arxadır."
+    },
+    {
+      "id": 835,
+      "text": "Qardaş olaq, tən (yarı) bölək."
+    }
+  ],
+  "L": [
+    {
+      "id": 836,
+      "text": "Laçın balasın verməz, bəlkə zorla alalar."
+    },
+    {
+      "id": 837,
+      "text": "Laçın da günəşdən yuxarı uça bilməz."
+    },
+    {
+      "id": 838,
+      "text": "Laçın qalada balalar."
+    },
+    {
+      "id": 839,
+      "text": "Laf ilə plov bişməz, yağ ilə düyü gərək."
+    },
+    {
+      "id": 840,
+      "text": "Lağ eləmə atama, lağ edəllər atana."
+    },
+    {
+      "id": 841,
+      "text": "Lahıcı sel apardı, elə deyrdi:qiblə pakdı."
+    },
+    {
+      "id": 842,
+      "text": "Lax yumurta suda batmaz."
+    },
+    {
+      "id": 843,
+      "text": "Laxlayan daş ərkdə qalmaz."
+    },
+    {
+      "id": 844,
+      "text": "Lalam, karam - dinmərəm."
+    },
+    {
+      "id": 845,
+      "text": "Lalə taxıl zəmisində qanqaldır."
+    },
+    {
+      "id": 846,
+      "text": "Lalın dilini anası bilər."
+    },
+    {
+      "id": 847,
+      "text": "Laylayı bilirsən, niyə yatmırsan?"
+    },
+    {
+      "id": 848,
+      "text": "Lazımlı yerə sərf eləmir, lazımsız yerə su kimi axıdır."
+    },
+    {
+      "id": 849,
+      "text": "Leş görəndə qarğa quzğuna dönər."
+    },
+    {
+      "id": 850,
+      "text": "Leyli bazarıdır, Məcnun can satır."
+    },
+    {
+      "id": 851,
+      "text": "Ləbləbidir - el dəbidir."
+    },
+    {
+      "id": 852,
+      "text": "Lələ ikinci anadır."
+    },
+    {
+      "id": 853,
+      "text": "Lələ köçüb, yurdu qalıb."
+    },
+    {
+      "id": 854,
+      "text": "Lələ var, yurdu yox."
+    },
+    {
+      "id": 855,
+      "text": "Lənət kor şeytana."
+    },
+    {
+      "id": 856,
+      "text": "Ləzgiyə dedilər:can şirindi, bəkməz? Dedi: İki dostun arasına girmək olmaz."
+    },
+    {
+      "id": 857,
+      "text": "Libasım yamaq götürür, qarnım yox."
+    },
+    {
+      "id": 858,
+      "text": "Lobyalı aş, keçəl Dadaş, get gəlirəm yavaş-yavaş."
+    },
+    {
+      "id": 859,
+      "text": "Lobyalı aşın boyadı, İsanı yuxudan oyadır."
+    },
+    {
+      "id": 860,
+      "text": "Loxma qarın doyurmaz, məhəbbət artırar."
+    },
+    {
+      "id": 861,
+      "text": "Löyünsüzə böyüklük eləmək olmaz."
+    },
+    {
+      "id": 862,
+      "text": "Lüleyin aftafa yerin tutar, girov qoyanda – alan olmaz."
+    },
+    {
+      "id": 863,
+      "text": "Lütdən kəsən harda yeyəcək?!"
+    },
+    {
+      "id": 864,
+      "text": "Lütün dərdi olmaz."
+    },
+    {
+      "id": 865,
+      "text": "Lütün yuxusuna köynək düşər."
+    }
+  ],
+  "M": [
+    {
+      "id": 866,
+      "text": "Mal gedər bir yana, iman gedər min yana."
+    },
+    {
+      "id": 867,
+      "text": "Mal itdi, iman itdi."
+    },
+    {
+      "id": 868,
+      "text": "Mal yiyəsinə oxşamasa haramdı."
+    },
+    {
+      "id": 869,
+      "text": "Malı gedənin imanı da gedər."
+    },
+    {
+      "id": 870,
+      "text": "Malı qırov öldürər, qışın adı bədnamdır."
+    },
+    {
+      "id": 871,
+      "text": "Malı mal yanında tanıyarlar."
+    },
+    {
+      "id": 872,
+      "text": "Malı yox - oğru apara, imanı yox - şeytan apara."
+    },
+    {
+      "id": 873,
+      "text": "Malım budu, yarısı sudu, alsan da budu, almasan da."
+    },
+    {
+      "id": 874,
+      "text": "Malın əziz tutan canın zəlil tutar."
+    },
+    {
+      "id": 875,
+      "text": "Maşını sürdüm daşlığa soxaram belə qardaşlığa"
+    },
+    {
+      "id": 876,
+      "text": "Malın tapıldı, üzün qara oldu."
+    },
+    {
+      "id": 877,
+      "text": "Malın yeməzin malını yeyərlər."
+    },
+    {
+      "id": 878,
+      "text": "Malını bəylər apardı, camalına nə oldu?!"
+    },
+    {
+      "id": 879,
+      "text": "Malını itlər yeyər, canını bitlər."
+    },
+    {
+      "id": 880,
+      "text": "Malını yaxşı saxla, qonşunu oğru tutma."
+    },
+    {
+      "id": 881,
+      "text": "Mamaça çox olanda uşaq tərs gələr."
+    },
+    {
+      "id": 882,
+      "text": "Matahın matah olunca, bazarın bazar olsun."
+    },
+    {
+      "id": 883,
+      "text": "Maya doğar, nər doğmaz."
+    },
+    {
+      "id": 884,
+      "text": "Mayasız fətir olar."
+    },
+    {
+      "id": 885,
+      "text": "Mehtərin səsi uzaqdan xoş gələr."
+    },
+    {
+      "id": 886,
+      "text": "Meşə çaqqalsız olmaz."
+    },
+    {
+      "id": 887,
+      "text": "Meşədə ağacın düzün seçərlər."
+    },
+    {
+      "id": 888,
+      "text": "Meşəyə gedən öz ağacın kəsər."
+    },
+    {
+      "id": 889,
+      "text": "Meşəyə od düşəndə quru da yanar, yaş da."
+    },
+    {
+      "id": 890,
+      "text": "Mazanın səsinə oxşuyur? Bu dal"
+    },
+    {
+      "id": 891,
+      "text": "Meyxanaçıdan şahid istədilər, sərxoşu göstərdi."
+    },
+    {
+      "id": 892,
+      "text": "Meyxanaçının şahidi üzüm ayaqlayan olar."
+    },
+    {
+      "id": 893,
+      "text": "Meymuna dedilər oyna, dabanını qovzadı."
+    },
+    {
+      "id": 894,
+      "text": "Məkkə evin içidir. [1]"
+    },
+    {
+      "id": 895,
+      "text": "Məkkədən gələn mən, xəbər verən sən. [2]"
+    },
+    {
+      "id": 896,
+      "text": "Məkkəyə gedən dəvə hacı olmaz."
+    },
+    {
+      "id": 897,
+      "text": "Məkkəyə gedir, sünni olur, geri qayıdır, şiə olur. [3]"
+    },
+    {
+      "id": 898,
+      "text": "Mərddən bir xəta, namərddən min."
+    },
+    {
+      "id": 899,
+      "text": "Mərd əli kasad olmaz."
+    },
+    {
+      "id": 900,
+      "text": "Mərd oğul zalıma baş əyməz."
+    },
+    {
+      "id": 901,
+      "text": "Mərdi qova-qova namərd eləmə."
+    },
+    {
+      "id": 902,
+      "text": "Mərdi qova-qova namərd edərlər."
+    },
+    {
+      "id": 903,
+      "text": "Mərd igidlər süfrə açar, ad alar."
+    },
+    {
+      "id": 904,
+      "text": "Mərd ilə gəzən mərd olar, namərdlə gəzən biyabangərd olar."
+    },
+    {
+      "id": 905,
+      "text": "Mərdin gözü tox olar, namərdin gözü ac."
+    },
+    {
+      "id": 906,
+      "text": "Mərd gördüyün deməz."
+    },
+    {
+      "id": 907,
+      "text": "Mərd mərdi qanar, Bərkdə oduna yanar."
+    },
+    {
+      "id": 908,
+      "text": "Mərd özündən bilər,"
+    },
+    {
+      "id": 909,
+      "text": "Mərdə güllə kürəyindən dəyməz."
+    },
+    {
+      "id": 910,
+      "text": "Məzlumun ahı, devirər şahı."
+    },
+    {
+      "id": 911,
+      "text": "Minarə başında qoz dayanmaz. [4]"
+    },
+    {
+      "id": 912,
+      "text": "Miyançının kisəsi gen olar."
+    },
+    {
+      "id": 913,
+      "text": "Milçək bir şey deyil, könül bulandırır."
+    },
+    {
+      "id": 914,
+      "text": "Molla alacağın unutmaz."
+    },
+    {
+      "id": 915,
+      "text": "Molla bəyə qoşuldu, xalqın evi yıxıldı."
+    },
+    {
+      "id": 916,
+      "text": "Molla evindən aş çıxmaz, kor gözündən yaş."
+    },
+    {
+      "id": 917,
+      "text": "Molla halvanı yedi, yasini unutdu."
+    },
+    {
+      "id": 918,
+      "text": "Molla Qurandan kəsər, şeytan imandan."
+    },
+    {
+      "id": 919,
+      "text": "Molla Nəsrəddin sağ ola, eşşəklərini qurd yeyə?!"
+    },
+    {
+      "id": 920,
+      "text": "Molla olmaq çox asan, adam olmaq çox çətin."
+    },
+    {
+      "id": 921,
+      "text": "Molla tuluq zurnasıdı, qarnı dolmasa, səsi çıxmaz."
+    },
+    {
+      "id": 922,
+      "text": "Mollanı iki yerə çağıranda bağrı çatlar."
+    },
+    {
+      "id": 923,
+      "text": "Mollaya dedilər: qonşuda bir kasıb ölmüş, dedi: naxoşam."
+    },
+    {
+      "id": 924,
+      "text": "Motala dadanan köpək bir də gələr."
+    },
+    {
+      "id": 925,
+      "text": "Murdar əsgiyə od düşməz."
+    },
+    {
+      "id": 926,
+      "text": "Murdarı murdar aparar."
+    },
+    {
+      "id": 927,
+      "text": "Muzdur, yerində düz dur."
+    },
+    {
+      "id": 928,
+      "text": "Müftə sirkə baldan şirin olar."
+    },
+    {
+      "id": 929,
+      "text": "Müxənnətlə ehsan yeməyə də getmə."
+    },
+    {
+      "id": 930,
+      "text": "Müştəridə göz olsa, satan acından ölər."
+    }
+  ],
+  "N": [
+    {
+      "id": 931,
+      "text": "Nabələdə gün də buluddur."
+    },
+    {
+      "id": 932,
+      "text": "Nacins ağac düyünlü olar."
+    },
+    {
+      "id": 933,
+      "text": "Nacins qarpızın tumu çox olar."
+    },
+    {
+      "id": 934,
+      "text": "Nadan dostdan ağıllı düşmən yaxşıdır."
+    },
+    {
+      "id": 935,
+      "text": "Nadan əlindən su içmə, ab-həyat olsa da."
+    },
+    {
+      "id": 936,
+      "text": "Nadan özünü öyər, kor gözünü."
+    },
+    {
+      "id": 937,
+      "text": "Nadana halva acı olar."
+    },
+    {
+      "id": 938,
+      "text": "Nadanı kötək düzəldər, qozbeli qəbir."
+    },
+    {
+      "id": 939,
+      "text": "Nadanın düşməni özüdür."
+    },
+    {
+      "id": 940,
+      "text": "Nadanlıq nəsilnən, insanlıq əsilnən"
+    },
+    {
+      "id": 941,
+      "text": "Nadiri taxtda görüb, Şah Abbası qundaqda."
+    },
+    {
+      "id": 942,
+      "text": "Nadürüst nəslinə çəkər."
+    },
+    {
+      "id": 943,
+      "text": "Nahaq ayaq tutub yeriməz."
+    },
+    {
+      "id": 944,
+      "text": "Nahaq iş ayaq tutmaz."
+    },
+    {
+      "id": 945,
+      "text": "Nahaq qan batmaz."
+    },
+    {
+      "id": 946,
+      "text": "Nahaq qan yerdə qalmaz."
+    },
+    {
+      "id": 947,
+      "text": "Nahaq qapıdan gələndə haqq bacadan çıxar."
+    },
+    {
+      "id": 948,
+      "text": "Naxçıvanın duzu, qızı, qarpızı."
+    },
+    {
+      "id": 949,
+      "text": "Naxır gəlməsə, axşam olmaz."
+    },
+    {
+      "id": 950,
+      "text": "Naxır itib, ala dananı qovur."
+    },
+    {
+      "id": 951,
+      "text": "Naxır yeri ilə gedib, ala dananı axtarır."
+    },
+    {
+      "id": 952,
+      "text": "Naxır yerli-dibli yoxdur, bu, ala dana axtarır."
+    },
+    {
+      "id": 953,
+      "text": "Naxıra gedirəm — çoban olmaz, axura gedirəm — saman."
+    },
+    {
+      "id": 954,
+      "text": "Naxırçı qızı arpa çörəyi arzular."
+    },
+    {
+      "id": 955,
+      "text": "Naxırçı qızı naxırçı çörəyi arzular."
+    },
+    {
+      "id": 956,
+      "text": "Naxırçı qızından xanım olmaz."
+    },
+    {
+      "id": 957,
+      "text": "Naxırçı qızını verdi, torpa dağarcığı da üstəlik."
+    },
+    {
+      "id": 958,
+      "text": "Naxırçı qızının qeyrəti naxır gələndə tutar."
+    },
+    {
+      "id": 959,
+      "text": "Naxırçının faydası havayı eşşək minməkdir."
+    },
+    {
+      "id": 960,
+      "text": "Naxırçının könlü naxır çörəyi istər."
+    },
+    {
+      "id": 961,
+      "text": "Naxırda malın yox, növbədə başın yarılır."
+    },
+    {
+      "id": 962,
+      "text": "Nakəsə borclu olma."
+    },
+    {
+      "id": 963,
+      "text": "Nakəslə comərdin xərci birdir."
+    },
+    {
+      "id": 964,
+      "text": "Nakəslərə yoldaş olan xar olur"
+    },
+    {
+      "id": 965,
+      "text": "Naqqa balıq tasa yerləşməz."
+    },
+    {
+      "id": 966,
+      "text": "Naqqalar olmasaydı, dünya laləzara dönərdi."
+    },
+    {
+      "id": 967,
+      "text": "Nağd alverdən ətir iyi gələr."
+    },
+    {
+      "id": 968,
+      "text": "Nağdı əldən vermə. (Nağdı qoyub nisyənin dalınca düşmə)."
+    },
+    {
+      "id": 969,
+      "text": "Nağıl dili yüyrək olar."
+    },
+    {
+      "id": 970,
+      "text": "Nalını almamış mıxını çalma."
+    },
+    {
+      "id": 971,
+      "text": "Namaz qıla-qıla yıxdın evimi, indi başlamısan həccə getməyə."
+    },
+    {
+      "id": 972,
+      "text": "Namaza meyli olanın qulağı azanda olar."
+    },
+    {
+      "id": 973,
+      "text": "Namazdan əvvəl boğazdır."
+    },
+    {
+      "id": 974,
+      "text": "Namazı əkib, orucluğa gedir."
+    },
+    {
+      "id": 975,
+      "text": "Namə vüsalın yarısıdır."
+    },
+    {
+      "id": 976,
+      "text": "Namə yazmaq asandır, yetirmək çətin."
+    },
+    {
+      "id": 977,
+      "text": "Namərd adam haqqı qoyub, nahaqqın dalınca gedər."
+    },
+    {
+      "id": 978,
+      "text": "Namərd gəlib mərd olmaz. Boyunca qızıl qala."
+    },
+    {
+      "id": 979,
+      "text": "Namərd gəlib mərd olmaz, yüz ətəklə, yüz yalvar."
+    },
+    {
+      "id": 980,
+      "text": "Namərd körpüsündən rahat keçincə, qoy aparsın o sellər məni."
+    },
+    {
+      "id": 981,
+      "text": "Namərd namərddən kəsər, Allah da hər ikisindən."
+    },
+    {
+      "id": 982,
+      "text": "Namərd yəhərdə tanınar, mərd kəhərdə."
+    },
+    {
+      "id": 983,
+      "text": "Namərdə tuş olanın ciyəri qana dönər."
+    },
+    {
+      "id": 984,
+      "text": "Namərdə yaxa vermə, mərdə arxa ol."
+    },
+    {
+      "id": 985,
+      "text": "Namərdə möhtac olma."
+    },
+    {
+      "id": 986,
+      "text": "Namərdə möhtac olunca dəryada qərq ol"
+    },
+    {
+      "id": 987,
+      "text": "Namərdə tuş olanın ürəyi qana dönər."
+    },
+    {
+      "id": 988,
+      "text": "Namərddən keç, mərddə dur."
+    },
+    {
+      "id": 989,
+      "text": "Namərdi bir gördün, bir də görsən namərdsən."
+    },
+    {
+      "id": 990,
+      "text": "Namərdi qova-qova mərd eylərsən"
+    },
+    {
+      "id": 991,
+      "text": "Namərdin adı olmaz."
+    },
+    {
+      "id": 992,
+      "text": "Namərdin çörəyi dizinin üstə olar."
+    },
+    {
+      "id": 993,
+      "text": "Namərdin gözü dar olar."
+    },
+    {
+      "id": 994,
+      "text": "Namərdin otağından, mərdin ağac kölgəsi."
+    },
+    {
+      "id": 995,
+      "text": "Namərdin plovundan, mərdin qaşıq aşı."
+    },
+    {
+      "id": 996,
+      "text": "Namərdin sözünü söz eləmək olmaz."
+    },
+    {
+      "id": 997,
+      "text": "Namı-nişanı qalmayıb."
+    },
+    {
+      "id": 998,
+      "text": "Namus gedər, dönməz geri, yoxdur onun bəlil yeri."
+    },
+    {
+      "id": 999,
+      "text": "Namus insanın cövhəridir."
+    },
+    {
+      "id": 1000,
+      "text": "Namus insanın qan bahasıdır."
+    },
+    {
+      "id": 1001,
+      "text": "Namussuz qohum qoltuq yarasıdır, nə açıb göstərmək olur, nə qoparıb atmaq."
+    },
+    {
+      "id": 1002,
+      "text": "Namusu itə atdılar, it yemədi."
+    },
+    {
+      "id": 1003,
+      "text": "Nanəcibdən ağa olmaz, təkədən qoç."
+    },
+    {
+      "id": 1004,
+      "text": "Nanəcibdən kənar gəz."
+    },
+    {
+      "id": 1005,
+      "text": "Nanəcibə hörmət edərsən, deyər ki, məndən qorxur."
+    },
+    {
+      "id": 1006,
+      "text": "Nanəcibə min dəfə yaxşılıq et, bir dəfə salam verməsən hamısı heçdir."
+    },
+    {
+      "id": 1007,
+      "text": "Nanəcibə salam verərsən, deyər — Qorxdu məndən."
+    },
+    {
+      "id": 1008,
+      "text": "Nanəcibə salam ver, keç."
+    },
+    {
+      "id": 1009,
+      "text": "Napakı hamam təmizləməz."
+    },
+    {
+      "id": 1010,
+      "text": "Nar ağacı — istək ağacı."
+    },
+    {
+      "id": 1011,
+      "text": "Nar üstündən turp yeməzlər."
+    },
+    {
+      "id": 1012,
+      "text": "Naşı bilməz xara nədir, bez nədir?!"
+    },
+    {
+      "id": 1013,
+      "text": "Naşı oğru özünü samanlığa vurar."
+    },
+    {
+      "id": 1014,
+      "text": "Naşı ovçu dağı adlayar, ov vura bilməz."
+    },
+    {
+      "id": 1015,
+      "text": "Naşılığını mənim başımda göstərir."
+    },
+    {
+      "id": 1016,
+      "text": "Naşıya zurna verəndə yoğun başından yapışar."
+    },
+    {
+      "id": 1017,
+      "text": "Naümid şeytandır."
+    }
+  ],
+
+  "O": [
+    {
+      "id": 1018,
+      "text": "O baş qorxsun ki, dost yolunda dayanmaz."
+    },
+    {
+      "id": 1019,
+      "text": "O dağa yağar, bu dağa yağar, axırda da bura yağar."
+    },
+    {
+      "id": 1020,
+      "text": "O gəlsə daşla, sən get aşla."
+    },
+    {
+      "id": 1021,
+      "text": "O hacı, bu hacı, kim olacaq boyaqçı?!"
+    },
+    {
+      "id": 1022,
+      "text": "O haqverməzdi, bu haqbatırmaz."
+    },
+    {
+      "id": 1023,
+      "text": "O qardan bizim də qapıya yağar."
+    },
+    {
+      "id": 1024,
+      "text": "O qədər dövlətli deyiləm ki, ucuz şey alam."
+    },
+    {
+      "id": 1025,
+      "text": "O qədər küp yanında küpəçələr sınıb ki?!"
+    },
+    {
+      "id": 1026,
+      "text": "O şahlıq dəvəsidir ki, yüklənməz."
+    },
+    {
+      "id": 1027,
+      "text": "O verdiyin and, bu da buyurduğun qulluq."
+    },
+    {
+      "id": 1028,
+      "text": "Oba bizə, biz obaya hayanıq."
+    },
+    {
+      "id": 1029,
+      "text": "Oba durdu köçməyə, qarı durdu gəzməyə."
+    },
+    {
+      "id": 1030,
+      "text": "Oba köçüb, yurd ağlayır."
+    },
+    {
+      "id": 1031,
+      "text": "Oba köçüb, yurdu qalıb."
+    },
+    {
+      "id": 1032,
+      "text": "Oba yiyəsiz qalanda donuz təpəyə çıxar."
+    },
+    {
+      "id": 1033,
+      "text": "Oba yox, qara yox, səndən başqa çara yox."
+    },
+    {
+      "id": 1034,
+      "text": "Obalar bizə, biz obalara."
+    },
+    {
+      "id": 1035,
+      "text": "Ocaq içindən tutuşar."
+    },
+    {
+      "id": 1036,
+      "text": "Ocaq közsüz qalmaz, gəlin sözsüz."
+    },
+    {
+      "id": 1037,
+      "text": "Ocaqdan kül əskik olmaz."
+    },
+    {
+      "id": 1038,
+      "text": "Ocağın altdan köz, adamın altdan söz."
+    },
+    {
+      "id": 1039,
+      "text": "Od düşdüyü yeri yandırar."
+    },
+    {
+      "id": 1040,
+      "text": "Od hər yana düşsə, özünə yer açar."
+    },
+    {
+      "id": 1041,
+      "text": "Oddan kül törər, küldən nə törər?"
+    },
+    {
+      "id": 1042,
+      "text": "Oddan , sudan yenə qar amannıdı."
+    },
+    {
+      "id": 1043,
+      "text": "Odla pambığın nə aşnalığı?!"
+    },
+    {
+      "id": 1044,
+      "text": "Odu söndürüb külü ilə oynamazlar."
+    },
+    {
+      "id": 1045,
+      "text": "Oduna gedər Daşdəmir, suya gedər Daşdəmir, üzüvü yusun mürdəşir."
+    },
+    {
+      "id": 1046,
+      "text": "Oxuduğunu demə, anladığını de."
+    },
+    {
+      "id": 1047,
+      "text": "Oxunu atıb, yayını gizlətmə."
+    },
+    {
+      "id": 1048,
+      "text": "Oğlan doğdum - oydu məni, qız doğdum - soydu məni."
+    },
+    {
+      "id": 1049,
+      "text": "Oğlan evlənər, bəy oldum sanar."
+    },
+    {
+      "id": 1050,
+      "text": "Oğlanı kamal ilə, qızı camal ilə."
+    },
+    {
+      "id": 1051,
+      "text": "Oğlum oğul olsun, kol dibi evim."
+    },
+    {
+      "id": 1052,
+      "text": "Oğru anası gah döş yeyər, gah döşünə vurar."
+    },
+    {
+      "id": 1053,
+      "text": "Oğru elə bağırdı, doğrunun bağrı yarıldı."
+    },
+    {
+      "id": 1054,
+      "text": "Oğru elə bilər, hamı oğrudur."
+    },
+    {
+      "id": 1055,
+      "text": "Oğru ev olmaz, ev yiyəsini evlilikdən salar."
+    },
+    {
+      "id": 1056,
+      "text": "Oğru əyri kolda gizlənər."
+    },
+    {
+      "id": 1057,
+      "text": "Oğru it xoflu olar."
+    },
+    {
+      "id": 1058,
+      "text": "Oğru it özünü bildirər."
+    },
+    {
+      "id": 1059,
+      "text": "Oğru qalana yanar, mal sahibi gedənə."
+    },
+    {
+      "id": 1060,
+      "text": "Oğru ol, xoşu ol, dilin olsun."
+    },
+    {
+      "id": 1061,
+      "text": "Oğrudan qalanı rəmmal aparar."
+    },
+    {
+      "id": 1062,
+      "text": "Oğrudan oğruya halaldır."
+    },
+    {
+      "id": 1063,
+      "text": "Oğrunu oğru əliylə tutarlar."
+    },
+    {
+      "id": 1064,
+      "text": "Oğruya and verdilər, evinə muştuluqçu getdi."
+    },
+    {
+      "id": 1065,
+      "text": "Oğul atadan görər, süfrə açar."
+    },
+    {
+      "id": 1066,
+      "text": "Oğul atanın kövşənin əkər."
+    },
+    {
+      "id": 1067,
+      "text": "Oğul düşmən qapısına aparar."
+    },
+    {
+      "id": 1068,
+      "text": "Oğul fərsiz olarsa, öldürər dərd atanı."
+    },
+    {
+      "id": 1069,
+      "text": "Oğul olmamış, adın qoyma."
+    },
+    {
+      "id": 1070,
+      "text": "Oğul yönlü olsa neynir ata malını, yönsüz olsa neynir ata malını?!"
+    },
+    {
+      "id": 1071,
+      "text": "Oğulun əfəli qohum yerdən qız alar."
+    },
+    {
+      "id": 1072,
+      "text": "Oğurluq ilə çəngilik qırx gün çəkər."
+    },
+    {
+      "id": 1073,
+      "text": "Oğurluğa dayın evinə get, tutulanda döyülmə."
+    },
+    {
+      "id": 1074,
+      "text": "Oğurluğa getsən, insafı əldən qoyma."
+    },
+    {
+      "id": 1075,
+      "text": "Oğurluğun əvvəli, o da ay işığında."
+    },
+    {
+      "id": 1076,
+      "text": "Olan yerdən umarlar."
+    },
+    {
+      "id": 1077,
+      "text": "Olacağa çarə yoxdur."
+    },
+    {
+      "id": 1078,
+      "text": "Oldu ilə öldüyə çarə yoxdur."
+    },
+    {
+      "id": 1079,
+      "text": "Ortaqlı malı xalq yeyər."
+    },
+    {
+      "id": 1080,
+      "text": "Ortaqlı toyuqdan yalnız yumurta yaxşıdır."
+    },
+    {
+      "id": 1081,
+      "text": "Ortalıq qazanı qaynamaz."
+    },
+    {
+      "id": 1082,
+      "text": "Otuz iki dişdən çıxan, otuz iki məhləyə yayılar."
+    },
+    {
+      "id": 1083,
+      "text": "Oruc tutmayanın oğluna Ramazan adını qoyarlar."
+    },
+    {
+      "id": 1084,
+      "text": "Ot öz kökü üstə bitər."
+    },
+    {
+      "id": 1085,
+      "text": "Ot yolun gah altında bitər, gah üstündə."
+    },
+    {
+      "id": 1086,
+      "text": "Ovçu ovda, yolçu yolda gərək."
+    },
+    {
+      "id": 1087,
+      "text": "Ovu bərəsində vurarlar."
+    },
+    {
+      "id": 1088,
+      "text": "Ovurdunda yaxşı yer eləyibsən, baqqal armud versə."
+    },
+    {
+      "id": 1089,
+      "text": "Oynamaq bilməyən yerim dardır deyər."
+    },
+    {
+      "id": 1090,
+      "text": "Oynamayın, gülməyin, kəndə təzə darğa gəlib."
+    },
+    {
+      "id": 1091,
+      "text": "Oynaş yanından gəlib ər başı yarır."
+    },
+    {
+      "id": 1092,
+      "text": "Oynaşa ümidli olan arvad ərdən olar."
+    },
+    {
+      "id": 1093,
+      "text": "Oynayıram, gülürəm, heç oynaş yadımdan çıxmır."
+    }
+  ],
+  "Ö": [
+    {
+      "id": 1094,
+      "text": "Öküz altında buzov axtarır."
+    },
+    {
+      "id": 1095,
+      "text": "Öküz cırıldamaqdan boyunduruq cırıldayır."
+    },
+    {
+      "id": 1096,
+      "text": "Öküz deyər: - Mən ağama nökərəm."
+    },
+    {
+      "id": 1097,
+      "text": "Öküz dəvəcan olanda, dəvə dağcan olar."
+    },
+    {
+      "id": 1098,
+      "text": "Öküz əhildəməkdən, boyunduruq əhildəyir."
+    },
+    {
+      "id": 1099,
+      "text": "Öküz kimi yeyir, dana kimi yatır."
+    },
+    {
+      "id": 1100,
+      "text": "Öküz olacaq dana bugündən bilinər."
+    },
+    {
+      "id": 1101,
+      "text": "Öküz öldü, ortaq ayrıldı."
+    },
+    {
+      "id": 1102,
+      "text": "Öküz ölər gönü qalar, igid ölər ünü qalar."
+    },
+    {
+      "id": 1103,
+      "text": "Öküz ölməyincə inəyə qiymət olmaz."
+    },
+    {
+      "id": 1104,
+      "text": "Öküz özünə yonca əkəndə başı ağrıyar."
+    },
+    {
+      "id": 1105,
+      "text": "Öküzlüyə gön borc verərlər."
+    },
+    {
+      "id": 1106,
+      "text": "Öküzü buynuzundan, adamı sözündən tutarlar."
+    },
+    {
+      "id": 1107,
+      "text": "Öküzü durğuzub altından buzov istəməzlər."
+    },
+    {
+      "id": 1108,
+      "text": "Öküzü olana borc gön verərlər."
+    },
+    {
+      "id": 1109,
+      "text": "Öküzü ölənə yol göstərən çox olar."
+    },
+    {
+      "id": 1110,
+      "text": "Öküzün böyüyü pəyədə qalıbdır."
+    },
+    {
+      "id": 1111,
+      "text": "Öküzün cütə getməyəni ətlik adına satılar."
+    },
+    {
+      "id": 1112,
+      "text": "Öküzün qaşqasını döyərlər."
+    },
+    {
+      "id": 1113,
+      "text": "Öküzün qocalanı dana-buzova qoşular."
+    },
+    {
+      "id": 1114,
+      "text": "Öl mənim üçün, ölüm sənin üçün."
+    },
+    {
+      "id": 1115,
+      "text": "Ölçməmiş biçmə."
+    },
+    {
+      "id": 1116,
+      "text": "Öldü var, döndü yoxdur."
+    },
+    {
+      "id": 1117,
+      "text": "Öldürən ox, günahkar oxatan."
+    },
+    {
+      "id": 1118,
+      "text": "Öldürrəm deyəndən qorxma, ölləm deyəndən qorx."
+    },
+    {
+      "id": 1119,
+      "text": "Ölən canını qurtarır, vay qalanın halına."
+    },
+    {
+      "id": 1120,
+      "text": "Ölən görməyəcək, qalan görəcək."
+    },
+    {
+      "id": 1121,
+      "text": "Ölən ilə ölmək olmaz."
+    },
+    {
+      "id": 1122,
+      "text": "Ölən inək südlü olar."
+    },
+    {
+      "id": 1123,
+      "text": "Ölən kim, öldürən kim?"
+    },
+    {
+      "id": 1124,
+      "text": "Ölən onlardan olsun, bel-kürək bizdən."
+    },
+    {
+      "id": 1125,
+      "text": "Ölən öldü, diriyə dirilik gərək."
+    },
+    {
+      "id": 1126,
+      "text": "Ölən öldü, vay dirinin halına."
+    },
+    {
+      "id": 1127,
+      "text": "Ölənin borcunu baqqal dirilərə yüklər."
+    },
+    {
+      "id": 1128,
+      "text": "Ölənin cibindən gedər."
+    },
+    {
+      "id": 1129,
+      "text": "Ölər, Koroğlu getməz bu yurddan."
+    },
+    {
+      "id": 1130,
+      "text": "Ölkə abad ikən dəyirman xaraba idi."
+    },
+    {
+      "id": 1131,
+      "text": "Ölkə ki var, onun qabağında şah da acizdir, gəda da."
+    },
+    {
+      "id": 1132,
+      "text": "Ölkə sahibsiz olmaz."
+    },
+    {
+      "id": 1133,
+      "text": "Ölkə yansa canı yanmaz."
+    },
+    {
+      "id": 1134,
+      "text": "Ölmə eşşəyim, ölmə, yaz gələr, yonca bitər."
+    },
+    {
+      "id": 1135,
+      "text": "Ölmə, itmə, qapımızdan getmə."
+    },
+    {
+      "id": 1136,
+      "text": "Ölmək istəyirsən, köç Mazandarana."
+    },
+    {
+      "id": 1137,
+      "text": "Ölmək ölməkdir, xırıldamaq nə deməkdir?!"
+    },
+    {
+      "id": 1138,
+      "text": "Ölmək var, dönmək yoxdur."
+    },
+    {
+      "id": 1139,
+      "text": "Ölməz, itməz Xədicə, görər nəvə-nəticə."
+    },
+    {
+      "id": 1140,
+      "text": "Ölmüş aslandan diri köpək yaxşıdır."
+    },
+    {
+      "id": 1141,
+      "text": "Ölmüş ata yük çatmazlar."
+    },
+    {
+      "id": 1142,
+      "text": "Ölmüş dəvənin dərisi bir eşşəyə yükdür."
+    },
+    {
+      "id": 1143,
+      "text": "Ölmüş eşşək axtarır ki, nalını çəksin."
+    },
+    {
+      "id": 1144,
+      "text": "Ölmüş inək südlü olar."
+    },
+    {
+      "id": 1145,
+      "text": "Ölü aslanın saqqalını yolarlar."
+    },
+    {
+      "id": 1146,
+      "text": "Ölü bit deyil ki!."
+    },
+    {
+      "id": 1147,
+      "text": "Ölü bit deyiləm ki, dırnaq altında qalım."
+    },
+    {
+      "id": 1148,
+      "text": "Ölü cəhənnəmə, təki mollaya pul olsun."
+    },
+    {
+      "id": 1149,
+      "text": "Ölü dağı çəkilər, diri dağı çəkilməz."
+    },
+    {
+      "id": 1150,
+      "text": "Ölü dərdi dərd olmaz, haray dirinin dərdidir."
+    },
+    {
+      "id": 1151,
+      "text": "Ölü gör necə ölüdür, Əzrail də halına ağlayır."
+    },
+    {
+      "id": 1152,
+      "text": "Ölü kəfənsiz qalmaz."
+    },
+    {
+      "id": 1153,
+      "text": "Ölü kimdir ki, gorun söyən kim ola?!"
+    },
+    {
+      "id": 1154,
+      "text": "Ölü kimi ölginən, mürdəşir kimi yuyum."
+    },
+    {
+      "id": 1155,
+      "text": "Ölü kimi yatır."
+    },
+    {
+      "id": 1156,
+      "text": "Ölü qəbristandan qayıtmaz."
+    },
+    {
+      "id": 1157,
+      "text": "Ölü öldü, diriyə dirilik gərək."
+    },
+    {
+      "id": 1158,
+      "text": "Ölü yerdə qalmaz."
+    },
+    {
+      "id": 1159,
+      "text": "Ölüb ağlayanı yoxdur."
+    },
+    {
+      "id": 1160,
+      "text": "Ölüb ölümdən qayıdıb."
+    },
+    {
+      "id": 1161,
+      "text": "Ölüdən pay umur."
+    },
+    {
+      "id": 1162,
+      "text": "Ölüdən şeytan da əl çəkib."
+    },
+    {
+      "id": 1163,
+      "text": "Ölüm-dirim bizim üçündür."
+    },
+    {
+      "id": 1164,
+      "text": "Ölüm gələndə \"gəlirəm\" deməz."
+    },
+    {
+      "id": 1165,
+      "text": "Ölüm haqq, miras halal."
+    },
+    {
+      "id": 1166,
+      "text": "Ölüm haqqdan, kəfən Məmməd Cəfər bəydən."
+    },
+    {
+      "id": 1167,
+      "text": "Ölüm haqqdır."
+    },
+    {
+      "id": 1168,
+      "text": "Ölüm qaş ilə göz arasındadır."
+    },
+    {
+      "id": 1169,
+      "text": "Ölüm var ki, həyat qədər dəyərli, həyat var ki, ölümdən də betərdir."
+    },
+    {
+      "id": 1170,
+      "text": "Ölüm var ölüm kimi, ölüm var zülüm kimi."
+    },
+    {
+      "id": 1171,
+      "text": "Ölümdən başqa hər şeyə çarə var."
+    },
+    {
+      "id": 1172,
+      "text": "Ölümə çarə yoxdur."
+    },
+    {
+      "id": 1173,
+      "text": "Ölümə gedən gəldi, pula gedən gəlmədi."
+    },
+    {
+      "id": 1174,
+      "text": "Ölülər elə bilir, dirilər halva yeyir."
+    },
+    {
+      "id": 1175,
+      "text": "Ölümü görəcəksən ki, bayılmağa da razı olasan."
+    },
+    {
+      "id": 1176,
+      "text": "Ölümün atı çaparaq olar."
+    },
+    {
+      "id": 1177,
+      "text": "Ölünü öz xoşuna qoysan, vurar kəfəni batırar."
+    },
+    {
+      "id": 1178,
+      "text": "Ölünü özbaşına qoysan, şıllaq atar, kəfəni çırar."
+    },
+    {
+      "id": 1179,
+      "text": "Ölünü vaxtında ağla, el gələr tünlük"
+    }
+  ],
+  "P": [
+    {
+      "id": 1180,
+      "text": "Padarın ulağı zağada yatar, qonağı çöldə."
+    },
+    {
+      "id": 1181,
+      "text": "Padşah uzaqda, Allah yuxarıda, kimə deyəsən dərdini?!"
+    },
+    {
+      "id": 1182,
+      "text": "Padşah xəzinəsi də altı şahılıq qıfıla möhtacdır."
+    },
+    {
+      "id": 1183,
+      "text": "Padşahı da arxasınca söyərlər."
+    },
+    {
+      "id": 1184,
+      "text": "Padşahın da arxasınca danışarlar."
+    },
+    {
+      "id": 1185,
+      "text": "Padşahın ayağı dəyən yerdə yeddi il ot bitməz."
+    },
+    {
+      "id": 1186,
+      "text": "Padşahın arxasınca danışırlar."
+    },
+    {
+      "id": 1187,
+      "text": "Padşahın da rəiyyətə işi düşər."
+    },
+    {
+      "id": 1188,
+      "text": "Padşahın söhbətinin əvvəli – dirilik, axırı – ölüm."
+    },
+    {
+      "id": 1189,
+      "text": "Padşahsız nağıl olmaz."
+    },
+    {
+      "id": 1190,
+      "text": "Paxıl artmaz."
+    },
+    {
+      "id": 1191,
+      "text": "Paxıl artsa, qurd artar."
+    },
+    {
+      "id": 1192,
+      "text": "Paxıl olma, qüssən olmasın."
+    },
+    {
+      "id": 1193,
+      "text": "Paxıl olmasan dərdin olmaz."
+    },
+    {
+      "id": 1194,
+      "text": "Paxıllıq insanı içindən yeyər."
+    },
+    {
+      "id": 1195,
+      "text": "Palaza bürün, elnən sürün."
+    },
+    {
+      "id": 1196,
+      "text": "Palan–palan, mənə də palan?!"
+    },
+    {
+      "id": 1197,
+      "text": "Palçığa batan arabanı öküz çıxardar."
+    },
+    {
+      "id": 1198,
+      "text": "Pambıq satan ağ itdən qorxar."
+    },
+    {
+      "id": 1199,
+      "text": "Pambıqçının ağ itdən zəhləsi gedər."
+    },
+    {
+      "id": 1200,
+      "text": "Papaq altında igidlər yaşar."
+    },
+    {
+      "id": 1201,
+      "text": "Papaq elə-işimizi bilək."
+    },
+    {
+      "id": 1202,
+      "text": "Papaq isti-soyuq üçün deyil, namus üçündür."
+    },
+    {
+      "id": 1203,
+      "text": "Papaq altında igidlər yatar."
+    },
+    {
+      "id": 1204,
+      "text": "Papaq namus üçündür."
+    },
+    {
+      "id": 1205,
+      "text": "Papaqçının könlü olsa, bir dəridən doqquz papaq tikər."
+    },
+    {
+      "id": 1206,
+      "text": "Papaqçının papağı yırtıq olar."
+    },
+    {
+      "id": 1207,
+      "text": "Papaqçının papağı olmaz."
+    },
+    {
+      "id": 1208,
+      "text": "Papağı tülkü dərisindən, xəbəri yox gerisindən."
+    },
+    {
+      "id": 1209,
+      "text": "Papağımız günə yandı."
+    },
+    {
+      "id": 1210,
+      "text": "Papağın yerə girsin."
+    },
+    {
+      "id": 1211,
+      "text": "Papağını qoy qabağına, fikirləş."
+    },
+    {
+      "id": 1212,
+      "text": "Paraya dəymə, bütünü kəsmə, doğra, doyunca ye."
+    },
+    {
+      "id": 1213,
+      "text": "Paslı dəmirdən qılınc olmaz."
+    },
+    {
+      "id": 1214,
+      "text": "Pay bölənə pay qalmaz."
+    },
+    {
+      "id": 1215,
+      "text": "Pay bölənin yüzdə biri cənnətə gedər."
+    },
+    {
+      "id": 1216,
+      "text": "Pay dolu gələr, dolu gedər."
+    },
+    {
+      "id": 1217,
+      "text": "Pay paylayan payından olar."
+    },
+    {
+      "id": 1218,
+      "text": "Pay payı döyər, çıxardar."
+    },
+    {
+      "id": 1219,
+      "text": "Pay verdi, dalınca gəldi."
+    },
+    {
+      "id": 1220,
+      "text": "Pay verdi, dalınca xəbər göndərdi."
+    },
+    {
+      "id": 1221,
+      "text": "Paydan pay ummazlar."
+    },
+    {
+      "id": 1222,
+      "text": "Paydan uman pay verməz."
+    },
+    {
+      "id": 1223,
+      "text": "Payın cənnətdə."
+    },
+    {
+      "id": 1224,
+      "text": "Payın qabağı pay olar."
+    },
+    {
+      "id": 1225,
+      "text": "Payını yalqız yeyən payını dişi ilə tutar."
+    },
+    {
+      "id": 1226,
+      "text": "Payını payımın üstə qoy, ya altından ye, ya üstündən."
+    },
+    {
+      "id": 1227,
+      "text": "Payız camışı qaçağan olar."
+    },
+    {
+      "id": 1228,
+      "text": "Payızın suyu kasıbın boğazına təngdir."
+    },
+    {
+      "id": 1229,
+      "text": "Pəzəvəngin axırı dərviş olar."
+    },
+    {
+      "id": 1230,
+      "text": "Pinəçinin mayası iynəynən bizdi."
+    },
+    {
+      "id": 1231,
+      "text": "Pir mənimdir, kəramətini bilirəm."
+    },
+    {
+      "id": 1232,
+      "text": "Pis günün ömrü az olar."
+    },
+    {
+      "id": 1233,
+      "text": "Pis iş mərdə ar olar, Namərd gözü dar olar."
+    },
+    {
+      "id": 1234,
+      "text": "Pis olmasa, yaxşının qədri bilinməz."
+    },
+    {
+      "id": 1235,
+      "text": "Pis övlad altıncı barmaq kimidir-kəsərsən, ağrıyar, kəsməzsən, eybəcər göstərər."
+    },
+    {
+      "id": 1236,
+      "text": "Pis söz yiyəsinə qayıdar."
+    },
+    {
+      "id": 1237,
+      "text": "Pisi dalına mindir, ya dalına min, ikisi də birdir."
+    },
+    {
+      "id": 1238,
+      "text": "Pisliyi torpağa əkdilər, göyərmədi."
+    },
+    {
+      "id": 1239,
+      "text": "Pişik atası xeyrinə siçan tutmaz."
+    },
+    {
+      "id": 1240,
+      "text": "Pişik balasını istədiyindən yeyər."
+    },
+    {
+      "id": 1241,
+      "text": "Pişik balasını külə bulayıb yeyər."
+    },
+    {
+      "id": 1242,
+      "text": "Pişik olmayan yerdə siçanlar baş qaldırar."
+    },
+    {
+      "id": 1243,
+      "text": "Pişiklə donuz darıdan çıxmaz."
+    },
+    {
+      "id": 1244,
+      "text": "Pişiyi bağlayıb süfrə açır."
+    },
+    {
+      "id": 1245,
+      "text": "Pişiyi dara qısnayanda dönər üzünü cırmaqlar."
+    },
+    {
+      "id": 1246,
+      "text": "Pişiyin ağzı ətə çatmayanda deyər qoxuyubdu."
+    },
+    {
+      "id": 1247,
+      "text": "Pişiyin dərdi iti öldürər."
+    },
+    {
+      "id": 1248,
+      "text": "Pişiyin gözü siçan dəliyində olar."
+    },
+    {
+      "id": 1249,
+      "text": "Pişiyin könlü samanlıq idi, it də qovdu saldı samanlığa."
+    },
+    {
+      "id": 1250,
+      "text": "Pişiyin qonaq yeri samanlıqdır."
+    },
+    {
+      "id": 1251,
+      "text": "Piyada atlıya gülməsə, bağrı çatlar."
+    },
+    {
+      "id": 1252,
+      "text": "Pıç-pıç ev yıxar."
+    },
+    {
+      "id": 1253,
+      "text": "Polad sınar, əyilməz."
+    },
+    {
+      "id": 1254,
+      "text": "Pul can yonqarıdır."
+    },
+    {
+      "id": 1255,
+      "text": "Pul əl çirkidir."
+    },
+    {
+      "id": 1256,
+      "text": "Pul kəsəni qılınc kəsməz."
+    },
+    {
+      "id": 1257,
+      "text": "Pullu adamdan bəla da qorxar."
+    }
+  ],
+  "R": [
+    {
+      "id": 1258,
+      "text": "Rahat durmayan narahat olar."
+    },
+    {
+      "id": 1259,
+      "text": "Rahat oturana nə vali gələr, nə hakim."
+    },
+    {
+      "id": 1260,
+      "text": "Rahatlıq istəyən adam - kor, kar, lal gərək."
+    },
+    {
+      "id": 1261,
+      "text": "Ramazanda yalan deyən bayramda üzü qara çıxar."
+    },
+    {
+      "id": 1262,
+      "text": "Rast gəlməyən işə peşiman olma."
+    },
+    {
+      "id": 1263,
+      "text": "Razı olan qəm yeməz."
+    },
+    {
+      "id": 1264,
+      "text": "Rəhbərə yol göstərmə."
+    },
+    {
+      "id": 1265,
+      "text": "Rəhmət yazana, lənət pozana."
+    },
+    {
+      "id": 1266,
+      "text": "Rəncbərin ümidi əkinədir."
+    },
+    {
+      "id": 1267,
+      "text": "Rəngimə bax, əhvalımı xəbər al."
+    },
+    {
+      "id": 1268,
+      "text": "Rișxənd etmə qonşuna, gələr bir gün başına."
+    },
+    {
+      "id": 1269,
+      "text": "Rișxəndlik ağlın zəifliyindən doğar."
+    },
+    {
+      "id": 1270,
+      "text": "Ruzi gələn vaxtı köpəyi yuxu tutar."
+    },
+    {
+      "id": 1271,
+      "text": "Ruzi qismət ilə gələr."
+    },
+    {
+      "id": 1272,
+      "text": "Ruzi (yemək) olsun, ocaqda olsun."
+    },
+    {
+      "id": 1273,
+      "text": "Ruzisi gələn zaman köpəyi yuxu tutar."
+    },
+    {
+      "id": 1274,
+      "text": "Rüstəmi-zaman olsan, düşməni həqir sanma."
+    },
+    {
+      "id": 1275,
+      "text": "Rüsvayçılıq ömürdən uzun olur."
+    },
+    {
+      "id": 1276,
+      "text": "Rüşvət cəhənnəmin açarıdır."
+    },
+    {
+      "id": 1277,
+      "text": "Rüşvət haramdır."
+    },
+    {
+      "id": 1278,
+      "text": "Rüşvət qapıdan girərsə, iman bacadan çıxar."
+    },
+    {
+      "id": 1279,
+      "text": "Rüşvətxorun aqibəti yoxdur."
+    }
+  ],
+
+  "S": [
+    {
+      "id": 1280,
+      "text": "Sabun ilə üz yuyan bir gün göyçək olar."
+    },
+    {
+      "id": 1281,
+      "text": "Sadağa qada qaytarar."
+    },
+    {
+      "id": 1282,
+      "text": "Sadağa verən əllər dərd görməz."
+    },
+    {
+      "id": 1283,
+      "text": "Saf armud sapdan düşməz."
+    },
+    {
+      "id": 1284,
+      "text": "Sahibindən qabaq bostana girmə."
+    },
+    {
+      "id": 1285,
+      "text": "Sahibsiz qoyunu qurd yeyər."
+    },
+    {
+      "id": 1286,
+      "text": "Saxla gönü, gələr günü."
+    },
+    {
+      "id": 1287,
+      "text": "Saxla samanı, gələr zamanı."
+    },
+    {
+      "id": 1288,
+      "text": "Sakitlikdə olan iş qışqırıqla başa gəlməz."
+    },
+    {
+      "id": 1289,
+      "text": "Saqqal feyz olsaydı, keçi şeyxlik elərdi."
+    },
+    {
+      "id": 1290,
+      "text": "Saqqalım yoxdu, sözüm ötmür."
+    },
+    {
+      "id": 1291,
+      "text": "Sağ əl verəni sol əl gərək bilməsin."
+    },
+    {
+      "id": 1292,
+      "text": "Sağ əlin sol ələ ehtiyacı var."
+    },
+    {
+      "id": 1293,
+      "text": "Sağ əlin sol ələ xeyri yoxdu."
+    },
+    {
+      "id": 1294,
+      "text": "Sağ gözü sol gözə möhtac olmasın."
+    },
+    {
+      "id": 1295,
+      "text": "Sağ gözü tut, sol gözdən ona işıq yoxdu."
+    },
+    {
+      "id": 1296,
+      "text": "Sağ gözün sol gözə etibarı yoxdur."
+    },
+    {
+      "id": 1297,
+      "text": "Sağalsa həkiməm, sağalmasa mən kiməm?."
+    },
+    {
+      "id": 1298,
+      "text": "Sağlam ruh sağlam bədəndə olar."
+    },
+    {
+      "id": 1299,
+      "text": "Sağlamlıq böyük nemətdir, qədrini bilmək gərək."
+    },
+    {
+      "id": 1300,
+      "text": "Sağlamlığın qədrini xəstələr bilər."
+    },
+    {
+      "id": 1301,
+      "text": "Sağlıq ən böyük varlıqdır."
+    },
+    {
+      "id": 1302,
+      "text": "Sağlığında kor Fatma, öləndə badam gözlü?!"
+    },
+    {
+      "id": 1303,
+      "text": "Sağlığında nə idi ki, sayrılığında nola?!"
+    },
+    {
+      "id": 1304,
+      "text": "Sağmal inək bizdə, satdıq yağ sizdə."
+    },
+    {
+      "id": 1305,
+      "text": "Sağsağan kəkliyə baxar, öz yerişini itirər."
+    },
+    {
+      "id": 1306,
+      "text": "Salam Allahın adıdır."
+    },
+    {
+      "id": 1307,
+      "text": "Salavat gücə bağlıdır."
+    },
+    {
+      "id": 1308,
+      "text": "Sallaqxana köpəyi arsız olar."
+    },
+    {
+      "id": 1309,
+      "text": "Saman sənin deyil, samanlıq ki sənindir."
+    },
+    {
+      "id": 1310,
+      "text": "Samanın tüstüsü göz çıxardar."
+    },
+    {
+      "id": 1311,
+      "text": "Sambalı xoş, içərisi boş."
+    },
+    {
+      "id": 1312,
+      "text": "Sap üzülən yerdən qırılar."
+    },
+    {
+      "id": 1313,
+      "text": "sarala-sarala yaşamaqdan, qızara-qızara ölmək yaxşıdır"
+    },
+    {
+      "id": 1314,
+      "text": "Sarı it çaqqalın dayısıdır."
+    },
+    {
+      "id": 1315,
+      "text": "Sarı yağdan tük çəkir."
+    },
+    {
+      "id": 1316,
+      "text": "Sarı yağla yağlayar, sarımsağla dağlayar."
+    },
+    {
+      "id": 1317,
+      "text": "Sarımsağı gəlin eləmişlər, qırx gün qoxusu çıxmamış."
+    },
+    {
+      "id": 1318,
+      "text": "Sarsaqlar olmasaydı, yaltaqlar acından ölərdi."
+    },
+    {
+      "id": 1319,
+      "text": "Satdığın kimi al."
+    },
+    {
+      "id": 1320,
+      "text": "Savab tökülüb, yığanı yoxdur."
+    },
+    {
+      "id": 1321,
+      "text": "Savadsız adam kor kimidir."
+    },
+    {
+      "id": 1322,
+      "text": "Savaşanda barışmağa da üz yeri qoyarlar."
+    },
+    {
+      "id": 1323,
+      "text": "Sayanın quluyam, saymayanın ağası."
+    },
+    {
+      "id": 1324,
+      "text": "Saydığını qoy kənara, gör fələk nə sayır."
+    },
+    {
+      "id": 1325,
+      "text": "Sayğısız igidi düşmən aldadar."
+    },
+    {
+      "id": 1326,
+      "text": "Saymaz it adam tutar."
+    },
+    {
+      "id": 1327,
+      "text": "Sel gətirən ucuz olar."
+    },
+    {
+      "id": 1328,
+      "text": "Selbəni meyvəli ağaca atarlar."
+    },
+    {
+      "id": 1329,
+      "text": "Sevənin gözü kor olar."
+    },
+    {
+      "id": 1330,
+      "text": "Sevgi adamı selə verər."
+    },
+    {
+      "id": 1331,
+      "text": "Sevgi od deyil, amma oddan yamandır."
+    },
+    {
+      "id": 1332,
+      "text": "Sevindim - quşum var, quşum var! Aralığa çıxdı sərçə balası."
+    },
+    {
+      "id": 1333,
+      "text": "Seyid cəddinə arxayın olar."
+    },
+    {
+      "id": 1334,
+      "text": "Səbir acıdır, meyvəsi şirin."
+    },
+    {
+      "id": 1335,
+      "text": "Səbir ağacı hər bağda göyərməz."
+    },
+    {
+      "id": 1336,
+      "text": "Səbir Allahdan, səbirsizlik şeytandan."
+    },
+    {
+      "id": 1337,
+      "text": "Səbir cənnət açarıdır."
+    },
+    {
+      "id": 1338,
+      "text": "Səbir edən sevinər."
+    },
+    {
+      "id": 1339,
+      "text": "Səbir edən səadətə yetər."
+    },
+    {
+      "id": 1340,
+      "text": "Səbir eləyən muradına yetişər."
+    },
+    {
+      "id": 1341,
+      "text": "Səbir eləyənin ağzı bal dadar."
+    },
+    {
+      "id": 1342,
+      "text": "Səbir ilə halva bişər, ey qora, səndən. Bəsləsən atlas olar tut yarpağından."
+    },
+    {
+      "id": 1343,
+      "text": "Səhər gedər naxıra, axşam gələr axıra."
+    },
+    {
+      "id": 1344,
+      "text": "Səhər gününə qızınmayan, axşam gününə qızınmaz."
+    },
+    {
+      "id": 1345,
+      "text": "Səhvsiz insan olmaz."
+    },
+    {
+      "id": 1346,
+      "text": "Sən ağa, mən ağa, inəkləri kim sağa."
+    },
+    {
+      "id": 1347,
+      "text": "Sən ağacı əlinə al, oğrunu it qapacaq."
+    },
+    {
+      "id": 1348,
+      "text": "Sən baş vurdun, mən ayaq, gəl bunu ortalayaq."
+    },
+    {
+      "id": 1349,
+      "text": "Sən doğru ol, əyri bəlasın tapar."
+    },
+    {
+      "id": 1350,
+      "text": "Sən gördüyün ağaclar kürəkliyə kəsildi."
+    }
+  ],
+  "Ş": [
+    {
+      "id": 1351,
+      "text": "Şabalıddan yağ çıxmaz."
+    },
+    {
+      "id": 1352,
+      "text": "Şad günün dostu çoxdu."
+    },
+    {
+      "id": 1353,
+      "text": "Şaddığına şitlik eləmə."
+    },
+    {
+      "id": 1354,
+      "text": "Şaftalı tabağı kimi ortada durma."
+    },
+    {
+      "id": 1355,
+      "text": "Şah Abbasa yaradı, keçəl Abbasa yaramadı?!"
+    },
+    {
+      "id": 1356,
+      "text": "Şah bilər, şahsevən bilər."
+    },
+    {
+      "id": 1357,
+      "text": "Şah da bilir Şirvan sünnüdür."
+    },
+    {
+      "id": 1358,
+      "text": "Şah Xudabəndə, səninki səndə, mənimki məndə."
+    },
+    {
+      "id": 1359,
+      "text": "Şah-şah dediyim öz canım üçündür."
+    },
+    {
+      "id": 1360,
+      "text": "Şahdan adama zərər dəyər."
+    },
+    {
+      "id": 1361,
+      "text": "Şahın da dəvələri ayaqyalın gəzər."
+    },
+    {
+      "id": 1362,
+      "text": "Şahın ürəyi Allahın əlindədi."
+    },
+    {
+      "id": 1363,
+      "text": "Şahsənəm oğlan doğub!"
+    },
+    {
+      "id": 1364,
+      "text": "Şair gördüyünü yazar."
+    },
+    {
+      "id": 1365,
+      "text": "Şair sözsüz olmaz."
+    },
+    {
+      "id": 1366,
+      "text": "Şayiə hər yanı gəzər."
+    },
+    {
+      "id": 1367,
+      "text": "Şalbanın bir ucu sənin çiynindədir."
+    },
+    {
+      "id": 1368,
+      "text": "Şalğam şorbasında turp özünü yağ sanar."
+    },
+    {
+      "id": 1369,
+      "text": "Şam ağacından ağıl olmaz, el oğlundan oğul olmaz."
+    },
+    {
+      "id": 1370,
+      "text": "Şam bahadı - korun nə vecinə."
+    },
+    {
+      "id": 1371,
+      "text": "Şam başından yanar."
+    },
+    {
+      "id": 1372,
+      "text": "Şam dibinə işıq salmaz."
+    },
+    {
+      "id": 1373,
+      "text": "Şam yanar, şölə çəkər..."
+    },
+    {
+      "id": 1374,
+      "text": "Şam yanmasa, başına pərvanə dolanmaz."
+    },
+    {
+      "id": 1375,
+      "text": "Şam kimi əriyib."
+    },
+    {
+      "id": 1376,
+      "text": "Şamdan soruşdular: -İplik yanır, sən niyə əriyirsən?"
+    },
+    {
+      "id": 1377,
+      "text": "Şam dedi: - Dad rəfiq əlindən! Rəfiqim yanır, mən də əriyirəm!"
+    },
+    {
+      "id": 1378,
+      "text": "Şamaxıda danışır, Bakıda eşidilir."
+    },
+    {
+      "id": 1379,
+      "text": "Şahla plov yemirəm ki, bığım yağa batar."
+    },
+    {
+      "id": 1380,
+      "text": "Şahsənəm oğlan doğub!"
+    },
+    {
+      "id": 1381,
+      "text": "Şahin ilə dəvə ovlamazlar."
+    },
+    {
+      "id": 1382,
+      "text": "Şeytan başqa, cin başqa."
+    },
+    {
+      "id": 1383,
+      "text": "Şeytan çox bildiyindəndi bir gözü kor olubdu."
+    },
+    {
+      "id": 1384,
+      "text": "Şeytan əzabda gərək."
+    },
+    {
+      "id": 1385,
+      "text": "Şeytan getdi, meydan bizə qaldı."
+    },
+    {
+      "id": 1386,
+      "text": "Şeytan karxanası boş qalmaz."
+    },
+    {
+      "id": 1387,
+      "text": "Şeytan olmasa qurd qoyunla gəzər."
+    },
+    {
+      "id": 1388,
+      "text": "Şeytana papış tikir, başına da deşik qoyur."
+    },
+    {
+      "id": 1389,
+      "text": "Şeytanın dostluğu dar ağacına qədərdir."
+    },
+    {
+      "id": 1390,
+      "text": "Şeytanla şərikli buğda əkən saman biçər."
+    }
+  ],
+
+  "T": [
+    {
+      "id": 1391,
+      "text": "Taxçadakı qarnında, boxçadakı əynində."
+    },
+    {
+      "id": 1392,
+      "text": "Taxt mənimdir, üstündə yatmıram, altında yatıram."
+    },
+    {
+      "id": 1393,
+      "text": "Taxtına nə baxırsan, baxtına bax."
+    },
+    {
+      "id": 1394,
+      "text": "Tale insanla oynayır."
+    },
+    {
+      "id": 1395,
+      "text": "Tamahkar öz nəfsinin quludur."
+    },
+    {
+      "id": 1396,
+      "text": "Tamah ağlı zay edər."
+    },
+    {
+      "id": 1397,
+      "text": "Tamahkardan dost olmaz, namərddən köməkçi."
+    },
+    {
+      "id": 1398,
+      "text": "Tamahkarı yalanşı aldadar."
+    },
+    {
+      "id": 1399,
+      "text": "Tamahkarın gözü kor olar."
+    },
+    {
+      "id": 1400,
+      "text": "Tamahkarın gözünü torpaq doydurar."
+    },
+    {
+      "id": 1401,
+      "text": "Tamarzıdan al, öyrənmişə ver."
+    },
+    {
+      "id": 1402,
+      "text": "Tanımadığın adamı evinə buraxma."
+    },
+    {
+      "id": 1403,
+      "text": "Tanrı ac istəyəni bəndə doyura bilməz."
+    },
+    {
+      "id": 1404,
+      "text": "Tanrı bir yandan bağlasa, bir yandan açar."
+    },
+    {
+      "id": 1405,
+      "text": "Tanrı dadına çatsın."
+    },
+    {
+      "id": 1406,
+      "text": "Tanrı dəvəyə qanad versəydi, yıxmadığı dam qalmazdı."
+    },
+    {
+      "id": 1407,
+      "text": "Tanrı qoruyanı qurd yeməz."
+    },
+    {
+      "id": 1408,
+      "text": "Tanrı verən dövləti bəndə ala bilməz."
+    },
+    {
+      "id": 1409,
+      "text": "Tanrı verən dövlətin zavalı olmaz."
+    },
+    {
+      "id": 1410,
+      "text": "Tanrıdan gəlməsə, bəndədən nə gələr?!"
+    },
+    {
+      "id": 1411,
+      "text": "Tanrısını tanımayandan nə umursan?"
+    },
+    {
+      "id": 1412,
+      "text": "Tapan tapanın olsa, çöldə çoban bəy olardı."
+    },
+    {
+      "id": 1413,
+      "text": "Tar çalan simi gözlər."
+    },
+    {
+      "id": 1414,
+      "text": "Tarlada izi olmayanın süfrədə üzü olmaz."
+    },
+    {
+      "id": 1415,
+      "text": "Tat ata mindi, Tanrısını tanımadı."
+    },
+    {
+      "id": 1416,
+      "text": "Taylı tayın tapmasa, günü ah-vayla keçər."
+    },
+    {
+      "id": 1417,
+      "text": "Tazının topal olduğu dovşanın qulağına yetişib."
+    },
+    {
+      "id": 1418,
+      "text": "Tazının yiyəsi varsa, dovşanın da Allahı var."
+    },
+    {
+      "id": 1419,
+      "text": "Tazısız ova gedən, dovşansız evə qayıdar."
+    }
+  ],
+  "U": [
+    {
+      "id": 1420,
+      "text": "Uca dağın başı qarlı olar."
+    },
+    {
+      "id": 1421,
+      "text": "Uca-uca dağlar başı qarlı da olur, qarsız da; igidlərin canı sağ olsun, varlı da olur, varsız da."
+    },
+    {
+      "id": 1422,
+      "text": "Ucuz aldın, quyruğunu düyünlə."
+    },
+    {
+      "id": 1423,
+      "text": "Ucuz ətin şorbası olmaz."
+    },
+    {
+      "id": 1424,
+      "text": "Ucuz illətsiz, baha hikmətsiz deyil."
+    },
+    {
+      "id": 1425,
+      "text": "Ucuz satan tez satar."
+    },
+    {
+      "id": 1426,
+      "text": "Ucuz verən tez satar."
+    },
+    {
+      "id": 1427,
+      "text": "Ucuzdan bahası olmaz."
+    },
+    {
+      "id": 1428,
+      "text": "Ucuzdur var illəti, bahadır var hikməti."
+    },
+    {
+      "id": 1429,
+      "text": "Ucuzluqda alanın üzün görmə, bahalıqda satanın."
+    },
+    {
+      "id": 1430,
+      "text": "Uçmaqda turac, qaçmaqda ceyran."
+    },
+    {
+      "id": 1431,
+      "text": "Ulağa gücü çatmır, acığını palanına tökür."
+    },
+    {
+      "id": 1432,
+      "text": "Ulamağını bilməyən köpək, sürüyə qurd gətirər."
+    },
+    {
+      "id": 1433,
+      "text": "Ulduzu barışmayanın salamı da savaşdır."
+    },
+    {
+      "id": 1434,
+      "text": "Ulu sözünə baxmayan ulaya-ulaya qalar."
+    },
+    {
+      "id": 1435,
+      "text": "Umac özün aş bilər, qarğa özün quş bilər."
+    },
+    {
+      "id": 1436,
+      "text": "Uman yerdən küsərlər."
+    },
+    {
+      "id": 1437,
+      "text": "Umud qaldı kosaya, kosa saqqalın daraya."
+    },
+    {
+      "id": 1438,
+      "text": "Umulmayan daş, yarar baş."
+    },
+    {
+      "id": 1439,
+      "text": "Unumu ələdim, ələyimi asdım."
+    },
+    {
+      "id": 1440,
+      "text": "Utanırsan-üzünə rübənd sal."
+    },
+    {
+      "id": 1441,
+      "text": "Usta əli dəyməyən iş haramdır."
+    },
+    {
+      "id": 1442,
+      "text": "Usta görməyən şagirdin gözü əllərdə qalar."
+    },
+    {
+      "id": 1443,
+      "text": "Usta meymun qaşçısız oynar."
+    },
+    {
+      "id": 1444,
+      "text": "Usta oğlundan şagird olmaz."
+    },
+    {
+      "id": 1445,
+      "text": "Ustadına kəm baxanın gözlərinə qan damar."
+    },
+    {
+      "id": 1446,
+      "text": "Uşaq adamı qanlı qapısına aparar."
+    },
+    {
+      "id": 1447,
+      "text": "Uşaq ağlaya-ağlaya böyüyər."
+    },
+    {
+      "id": 1448,
+      "text": "Uşaq arasına girməzlər."
+    },
+    {
+      "id": 1449,
+      "text": "Uşaq aşığı oynamaq üçün yığar."
+    },
+    {
+      "id": 1450,
+      "text": "Uşaq atasından güclüsün bilməz."
+    },
+    {
+      "id": 1451,
+      "text": "Uşaq böyüklərindən öyrənər."
+    },
+    {
+      "id": 1452,
+      "text": "Uşaq eldə böyüyər, balıq-göldə."
+    },
+    {
+      "id": 1453,
+      "text": "Uşaq gördüyünü götürər."
+    },
+    {
+      "id": 1454,
+      "text": "Uşaq ilə yoldaş olma, yıxılarsan gülər, yıxılanda ağlar."
+    },
+    {
+      "id": 1455,
+      "text": "Uşaq nədir, bıçaq nədir?"
+    },
+    {
+      "id": 1456,
+      "text": "Uşaq olan evdə qeybət olmaz."
+    },
+    {
+      "id": 1457,
+      "text": "Uşaq olmamış donunu biçmə."
+    },
+    {
+      "id": 1458,
+      "text": "Uşaq sözü şah sözündən hökmlüdür."
+    },
+    {
+      "id": 1459,
+      "text": "Uşaq sözün düzünü deyər."
+    },
+    {
+      "id": 1460,
+      "text": "Uşaq yeməyini bilməz."
+    },
+    {
+      "id": 1461,
+      "text": "Uşaq yıxıla-yıxıla böyüyər."
+    },
+    {
+      "id": 1462,
+      "text": "Uşaq yıxıldığı yerə baxar."
+    },
+    {
+      "id": 1463,
+      "text": "Uşaqdan al xəbəri."
+    },
+    {
+      "id": 1464,
+      "text": "Uşaqlıq ömrün baharıdır."
+    },
+    {
+      "id": 1465,
+      "text": "Uşaqlıqda yalan deyənə böyüyəndə inanmazlar."
+    },
+    {
+      "id": 1466,
+      "text": "Uşağa işə buyur, dalınca yüyür."
+    },
+    {
+      "id": 1467,
+      "text": "Uşağa yoldaş olma, sən yıxılsan gülər, özü yıxılsa ağlar."
+    },
+    {
+      "id": 1468,
+      "text": "Uşağı sevərlər beşikdə, əri sevərlər döşəkdə."
+    },
+    {
+      "id": 1469,
+      "text": "Uşağı süpürgə ilə döyməzlər, boyu çıxmaz."
+    },
+    {
+      "id": 1470,
+      "text": "Uşağı yemək böyütməz, fərəh böyüdər."
+    },
+    {
+      "id": 1471,
+      "text": "Uşağın hökmü padşahın hökmündən artıq."
+    },
+    {
+      "id": 1472,
+      "text": "Utan utanmazdan, qorx qorxmazdan."
+    },
+    {
+      "id": 1473,
+      "text": "Utananın oğlu olmaz."
+    },
+    {
+      "id": 1474,
+      "text": "Utanmasan oynamağa nə var ki?!"
+    },
+    {
+      "id": 1475,
+      "text": "Uzaq yerin arpasından, yaxın yerin samanı yaxşıdır."
+    },
+    {
+      "id": 1476,
+      "text": "Uzaq yerin bir parça kağızı, yaxın yerin bir kəlmə sözü."
+    },
+    {
+      "id": 1477,
+      "text": "Uzaqdan baxana döyüş asan gələr."
+    },
+    {
+      "id": 1478,
+      "text": "Uzaqdan baxırsan, sambalı xoşdu; yaxından baxırsan, quşqunu boşdu."
+    },
+    {
+      "id": 1479,
+      "text": "Uzaqdan zurna səsi xoş gələr."
+    },
+    {
+      "id": 1480,
+      "text": "Uzaqlaşmaq yaxınlaşmaq üçün vasitədir."
+    },
+    {
+      "id": 1481,
+      "text": "Uzun adamın ağlı dabanında olar."
+    },
+    {
+      "id": 1482,
+      "text": "Uzun axmaq olar, gödək fitnəkar."
+    },
+    {
+      "id": 1483,
+      "text": "Uzun danışanın ömrü az olar."
+    },
+    {
+      "id": 1484,
+      "text": "Uzun sözün qısası, gəlin, səni sevmişəm."
+    },
+    {
+      "id": 1485,
+      "text": "Uzun yaşın axırı yenə ölümdü."
+    }
+  ],
+
+  "Ü": [
+    {
+      "id": 1486,
+      "text": "Ümid həyatın sərmayəsidir."
+    },
+    {
+      "id": 1487,
+      "text": "Ürək dənizdən dərindir."
+    },
+    {
+      "id": 1488,
+      "text": "Ürək istəyəni əl eylər."
+    },
+    {
+      "id": 1489,
+      "text": "Ürək ki var şüşədir, sındırarsan kim yamar?!"
+    },
+    {
+      "id": 1490,
+      "text": "Ürək götürməyəni, əl götürməz."
+    },
+    {
+      "id": 1491,
+      "text": "Ürək öz dostunu tanıyar."
+    },
+    {
+      "id": 1492,
+      "text": "Ürək yanar, göz yaşarar."
+    },
+    {
+      "id": 1493,
+      "text": "Ürək yanmasa, gözdən yaş çıxmaz."
+    },
+    {
+      "id": 1494,
+      "text": "Ürəkdə olmayanı dil deməz."
+    },
+    {
+      "id": 1495,
+      "text": "Ürəkdən ürəyə yol var."
+    },
+    {
+      "id": 1496,
+      "text": "Ürəyi yanan yaxşı fatihə verər."
+    },
+    {
+      "id": 1497,
+      "text": "Ürkütməsən sanamaq olmaz."
+    },
+    {
+      "id": 1498,
+      "text": "Üstü bəzək, altı təzək."
+    },
+    {
+      "id": 1499,
+      "text": "Üstümü unlu görüb, adımı dəyirmançı çağırma."
+    },
+    {
+      "id": 1500,
+      "text": "Üz döndü, göz döndü."
+    },
+    {
+      "id": 1501,
+      "text": "Üz döndü, könül döndü."
+    },
+    {
+      "id": 1502,
+      "text": "Üz görən iman görməyib."
+    },
+    {
+      "id": 1503,
+      "text": "Üz göstərsən qohumluq iddiası edər."
+    },
+    {
+      "id": 1504,
+      "text": "Üz götürüb gedəni vuraraq saxlamaq olmaz."
+    },
+    {
+      "id": 1505,
+      "text": "Üz ki var – ətdəndir."
+    },
+    {
+      "id": 1506,
+      "text": "Üz ki var - ürəyin aynasıdır."
+    },
+    {
+      "id": 1507,
+      "text": "Üz üzdən utanar."
+    },
+    {
+      "id": 1508,
+      "text": "Üz verdik dəliyə, palçıqlı çıxdı xalıya."
+    },
+    {
+      "id": 1509,
+      "text": "Üz verilən yerdən ərinmə, üz verilməyən yerdə görünmə."
+    },
+    {
+      "id": 1510,
+      "text": "Üz vermə - arsız olar, az vermə xırsız olar."
+    },
+    {
+      "id": 1511,
+      "text": "Üz vermə - astar da istər."
+    },
+    {
+      "id": 1512,
+      "text": "Üz göstərsən qohumluq iddiası eylər."
+    },
+    {
+      "id": 1513,
+      "text": "Üzdə gülür, dalda hürür."
+    },
+    {
+      "id": 1514,
+      "text": "Üzə gülür, ayaqdan çəkir."
+    },
+    {
+      "id": 1515,
+      "text": "Üzərliksən varsan, yetmiş dərdə davasan, o yerdə ki, varsan, qada-balanı qovarsan."
+    },
+    {
+      "id": 1516,
+      "text": "Üzrü günahından artıq."
+    },
+    {
+      "id": 1517,
+      "text": "Üzü bəzək, içi təzək."
+    },
+    {
+      "id": 1518,
+      "text": "Üzü üstə gələniarxası üstə çevirməzlər."
+    },
+    {
+      "id": 1519,
+      "text": "Üzük nişanəsindən ürək nişanəsi yaxşıdır."
+    },
+    {
+      "id": 1520,
+      "text": "Üzük tanınar qaşı ilə, qız - qardaşı ilə."
+    },
+    {
+      "id": 1521,
+      "text": "Üzük-üzük oynayan gecələr yatmaz."
+    },
+    {
+      "id": 1522,
+      "text": "Üzün qara olması ayıb deyil, ürək qara olmasın."
+    },
+    {
+      "id": 1523,
+      "text": "Üzünü xalqa çevirənin arxası mökkəm olar."
+    },
+    {
+      "id": 1524,
+      "text": "Üzüyü qaşça tanırlar."
+    }
+  ],
+
+  "V": [
+    {
+      "id": 1525,
+      "text": "Vaxt atlı, biz piyada."
+    },
+    {
+      "id": 1526,
+      "text": "Vaxt ikən ağla, aşiq, el gələr, tühlük olar."
+    },
+    {
+      "id": 1527,
+      "text": "Vaxt insana hər şeyi öyrədər."
+    },
+    {
+      "id": 1528,
+      "text": "Vaxt olar ki, şahın da qaraçıya işi düşər."
+    },
+    {
+      "id": 1529,
+      "text": "Vaxtını itirən, bəxtini itirər."
+    },
+    {
+      "id": 1530,
+      "text": "Vaxtsız açılan gül tez solar."
+    },
+    {
+      "id": 1531,
+      "text": "Vaxtsız banlayan xoruzun başını kəsərlər."
+    },
+    {
+      "id": 1532,
+      "text": "Vaxtsız qonaq öz kisəsindən yeyər."
+    },
+    {
+      "id": 1533,
+      "text": "Var evi-kərəm evi, Yox evi, vərəm evi."
+    },
+    {
+      "id": 1534,
+      "text": "Var günün dostu çox olar."
+    },
+    {
+      "id": 1535,
+      "text": "Var var üstündən gələr."
+    },
+    {
+      "id": 1536,
+      "text": "Var yıxmayanı fələk də yıxmaz."
+    },
+    {
+      "id": 1537,
+      "text": "Varını verən utanmaz, yoxdan verən axmaqdır."
+    },
+    {
+      "id": 1538,
+      "text": "Varlı kisəsini döyər, kasıb dizini."
+    },
+    {
+      "id": 1539,
+      "text": "Varlı olub qəm-qüssə ilə yaşamaqdansa, kasıb olub şad-xürrəm yaşamaq yaxşıdır."
+    },
+    {
+      "id": 1540,
+      "text": "Varlı umduğunu yeyər, kasıb - olduğunu."
+    },
+    {
+      "id": 1541,
+      "text": "Varlığa güvənməzlər."
+    },
+    {
+      "id": 1542,
+      "text": "Varlığa nə darlıq?!"
+    },
+    {
+      "id": 1543,
+      "text": "Varlılığa tələsən yoxsulluğa tez düşər."
+    },
+    {
+      "id": 1544,
+      "text": "Varlının çörəyi kasıbın çənəsini yarar."
+    },
+    {
+      "id": 1545,
+      "text": "Varlının eşşəyi də yeyin gedər."
+    },
+    {
+      "id": 1546,
+      "text": "Varlının xoruzu da yumurtlayar."
+    },
+    {
+      "id": 1547,
+      "text": "Varlının iti harın olar."
+    },
+    {
+      "id": 1548,
+      "text": "Varlının malı, kasıbın övladı."
+    },
+    {
+      "id": 1549,
+      "text": "Varlının malı gedər, muzdurun canı."
+    },
+    {
+      "id": 1550,
+      "text": "Varlının torpağından çay keçər, kasıbınkından yol."
+    },
+    {
+      "id": 1551,
+      "text": "Varlının varı yoxsulun çənəsini yorar."
+    },
+    {
+      "id": 1552,
+      "text": "Varsa əgər hünərin, hara getsən var yerin."
+    },
+    {
+      "id": 1553,
+      "text": "Vay o kişinin halına ki, yeməyi, içməyi saxlaya arvadının sonrakı ərinə."
+    },
+    {
+      "id": 1554,
+      "text": "Vay o gündən ki, adamın öz iti özünü tuta."
+    },
+    {
+      "id": 1555,
+      "text": "Vay o gündən ki, varlı adam yoxsulun əlinə düşsün."
+    },
+    {
+      "id": 1556,
+      "text": "Verən əl alan əlin üstündə olar."
+    },
+    {
+      "id": 1557,
+      "text": "Verən əli kəsməzlər."
+    },
+    {
+      "id": 1558,
+      "text": "Verəndə imam olur, alanda şümür."
+    },
+    {
+      "id": 1559,
+      "text": "Verərsən pendir - elərəm kəndir, verərsən aş - elərəm baş."
+    },
+    {
+      "id": 1560,
+      "text": "Verim vara baxmaz."
+    },
+    {
+      "id": 1561,
+      "text": "Vəfalı dost yad olmaz, görməsə yüz il səni."
+    },
+    {
+      "id": 1562,
+      "text": "Vəsiyyət yüngüllükdür."
+    },
+    {
+      "id": 1563,
+      "text": "Vəsmə bol olanda qaşa da çəkərlər, gözə də."
+    },
+    {
+      "id": 1564,
+      "text": "Vətən daşı olmayandan, olmaz vətəndaşı."
+    },
+    {
+      "id": 1565,
+      "text": "Vətən elin evi, dayağıdır."
+    },
+    {
+      "id": 1566,
+      "text": "Vətən həsrəti çəkdim, gözlərimə qan gəldi."
+    },
+    {
+      "id": 1567,
+      "text": "Vətən uğrunda qan, dostunuz uğrunda göz yaşı, ailəniz uğrunda tər tökün."
+    },
+    {
+      "id": 1568,
+      "text": "Vətən viranə də olsa,yəqin,cənnətdir."
+    },
+    {
+      "id": 1569,
+      "text": "Vətən yadına düşən qərib, ağlamasın neyləsin?"
+    },
+    {
+      "id": 1570,
+      "text": "Vətənə gəldim, imana gəldim."
+    },
+    {
+      "id": 1571,
+      "text": "Vətəndən ayrı düşsəm, viran ollam, talannam."
+    },
+    {
+      "id": 1572,
+      "text": "Vətəni yadına düşən qərib ağlamasın, neyləsin?"
+    },
+    {
+      "id": 1573,
+      "text": "Vətənin bir qışı, qürbətin yüz baharından yaxşıdır."
+    },
+    {
+      "id": 1574,
+      "text": "Vətənin tüstüsü də şirindir."
+    },
+    {
+      "id": 1575,
+      "text": "Vətənsiz oğul olmaz."
+    },
+    {
+      "id": 1576,
+      "text": "Vəz oxumaq asan işdir, əməl eləyən gərək."
+    },
+    {
+      "id": 1577,
+      "text": "Vur dedik, öldür demədik."
+    },
+    {
+      "id": 1578,
+      "text": "Vur deyənlə vuran yarıdır."
+    },
+    {
+      "id": 1579,
+      "text": "Vur ki, beşik daldadı, Seyyid Əli xırmandadı."
+    },
+    {
+      "id": 1580,
+      "text": "Vura bilməyən daşın böyüyündən yapışar."
+    },
+    {
+      "id": 1581,
+      "text": "Vuran igid dayısına gəyişməz."
+    },
+    {
+      "id": 1582,
+      "text": "Vuran oğul ataya baxmaz."
+    },
+    {
+      "id": 1583,
+      "text": "Vuran öküzə Allah buynuz verməz."
+    }
+  ],
+
+  "Y": [
+    {
+      "id": 1584,
+      "text": "Ya bil, ya da biləndən soruş."
+    },
+    {
+      "id": 1585,
+      "text": "Ya bir yol tap, ya bir yol aç, ya da yoldan çəkil."
+    },
+    {
+      "id": 1586,
+      "text": "Ya bu dəvəni güdməli, ya da bu diyardan getməli."
+    },
+    {
+      "id": 1587,
+      "text": "Ya dağ ətəyində, ya bəy ətəyində."
+    },
+    {
+      "id": 1588,
+      "text": "Ya dalına min, ya da dalına mindir."
+    },
+    {
+      "id": 1589,
+      "text": "Ya dəvə ölər, ya dəvəçi, ya da üstündəki hacı."
+    },
+    {
+      "id": 1590,
+      "text": "Ya keçəl Həsən, ya da Həsən keçəl."
+    },
+    {
+      "id": 1591,
+      "text": "Ya qarnımda, ya könlümdə."
+    },
+    {
+      "id": 1592,
+      "text": "Ya lələ şələni basar, ya şələ - lələni."
+    },
+    {
+      "id": 1593,
+      "text": "Ya unçu ölər, ya dəyirmançı."
+    },
+    {
+      "id": 1594,
+      "text": "Ya vəlvələdən, ya zəlzələdən."
+    },
+    {
+      "id": 1595,
+      "text": "Ya zatdan, ya süddən."
+    },
+    {
+      "id": 1596,
+      "text": "Yabılarda qotur yabı mərd olar, yorulanda yiyəsinə dərd olar."
+    },
+    {
+      "id": 1597,
+      "text": "Yabıya tumar eləsən şıllaq atar."
+    },
+    {
+      "id": 1598,
+      "text": "Yad gəlib aşna olunca, aşna - yar əldən gedər."
+    },
+    {
+      "id": 1599,
+      "text": "Yad itin quyriuğu qısılı olar."
+    },
+    {
+      "id": 1600,
+      "text": "Yada arxa verən tək qalar."
+    },
+    {
+      "id": 1601,
+      "text": "Yaddan yoldaş olunca, qardaş əlindən gedər."
+    },
+    {
+      "id": 1602,
+      "text": "Yaxşı arvad ərini bəy eylər, yaman arvad - zay."
+    },
+    {
+      "id": 1603,
+      "text": "Yaxşı arvadlı ev cənnətdir."
+    },
+    {
+      "id": 1604,
+      "text": "Yaxşı at köhnə çulun altında da bilinər."
+    },
+    {
+      "id": 1605,
+      "text": "Yaxşı at özünə qamçı vurdurmaz."
+    },
+    {
+      "id": 1606,
+      "text": "Yaxşı at yemini artırar, yaman at - qamçısını."
+    },
+    {
+      "id": 1607,
+      "text": "Yaxşı at yemin artırar, pis at qamçısın."
+    },
+    {
+      "id": 1608,
+      "text": "Yaxşı ata bir qamçı, yaman ata min qamşı."
+    },
+    {
+      "id": 1609,
+      "text": "Yaxşı atadan pis oğul?!"
+    },
+    {
+      "id": 1610,
+      "text": "Yaxşı atları yaxşı kişilər minib getdilər."
+    },
+    {
+      "id": 1611,
+      "text": "Yaxşı bez arşınsız da satılar."
+    },
+    {
+      "id": 1612,
+      "text": "Yaxşı demişlər: Hər şeyin xiridarı gərəkdir!"
+    },
+    {
+      "id": 1613,
+      "text": "Yaxşı dost qardaşdan əzəldir."
+    },
+    {
+      "id": 1614,
+      "text": "Yaxşı dost yaman gündə məlum olar."
+    },
+    {
+      "id": 1615,
+      "text": "Yaxşı gündə düşmən gələr dost olar, igid odur yaman gündə dayansın."
+    },
+    {
+      "id": 1616,
+      "text": "Yaxşı gündə yad yaxşı, yaman gündə vay qardaş."
+    },
+    {
+      "id": 1617,
+      "text": "Yaxşı igid dayısına çəkər, xanım qız bibisinə."
+    },
+    {
+      "id": 1618,
+      "text": "Yaxşı iş heykəl kimidir, hər yerdən görünür."
+    },
+    {
+      "id": 1619,
+      "text": "Yaxşı it ələ düşməz."
+    },
+    {
+      "id": 1620,
+      "text": "Yaxşı qəssab ətin yaxşısını axıra saxlar."
+    },
+    {
+      "id": 1621,
+      "text": "Yaxşı qızdan yaxşı gəlin olar."
+    },
+    {
+      "id": 1622,
+      "text": "Yaxşı niyyət yarım dövlət deməkdir."
+    },
+    {
+      "id": 1623,
+      "text": "Yaxşı olanda \"xanım elədi\", pis olanda \"kəniz elədi\" deyərlər."
+    },
+    {
+      "id": 1624,
+      "text": "Yaxşı olsa ağadan, pis olsa nökərdəndir."
+    },
+    {
+      "id": 1625,
+      "text": "Yaxşı, yaman - keçdi karvan."
+    },
+    {
+      "id": 1626,
+      "text": "Yaxşılıq düşməni də adama dost edər."
+    },
+    {
+      "id": 1627,
+      "text": "Yaxşılıq istəyən qabaqcadan behin verməlidir."
+    },
+    {
+      "id": 1628,
+      "text": "Yaxşılıq yerdə qalmaz."
+    },
+    {
+      "id": 1629,
+      "text": "Yaxşılığa yaxşılıq hər kişinin işidir, yamanlığa yaxşılıq nər kişinin işidir."
+    },
+    {
+      "id": 1630,
+      "text": "Yağ yağ üstə gedər, yarma yavan qalar."
+    },
+    {
+      "id": 1631,
+      "text": "Yağ yeyən it tükündən məlum olar."
+    },
+    {
+      "id": 1632,
+      "text": "Yağıdan qalanı yağmur apardı."
+    },
+    {
+      "id": 1633,
+      "text": "Yağış ilə yer göyərər, alqış ilə ər öyünər."
+    },
+    {
+      "id": 1634,
+      "text": "Yağışdan çıxdıq, yağmura düşdük."
+    },
+    {
+      "id": 1635,
+      "text": "Yağışdan qaçan doluya düşər."
+    },
+    {
+      "id": 1636,
+      "text": "Yağlı əlin var sürt öz başına."
+    },
+    {
+      "id": 1637,
+      "text": "Yağmadı yağış, bitmədi qamış."
+    },
+    {
+      "id": 1638,
+      "text": "Yamanlığa yaxşılıq nər kişinin işidir."
+    },
+    {
+      "id": 1639,
+      "text": "Yalan ayaq tutar, ancaq yeriməz"
+    },
+    {
+      "id": 1640,
+      "text": "Yalan elə bağırdı ki, sanki, doğrudur"
+    },
+    {
+      "id": 1641,
+      "text": "Yalanla dünyanı dolanmaq olar, amma geri dönmək olmaz."
+    },
+    {
+      "id": 1642,
+      "text": "Yalançı çox yanılar."
+    },
+    {
+      "id": 1643,
+      "text": "Yalançının dili topuq vurar."
+    },
+    {
+      "id": 1644,
+      "text": "Yalançının evi yandı, heç kəs ona inanmadı."
+    },
+    {
+      "id": 1645,
+      "text": "Yalançının ipi ilə quyuya düşən quyuda qalar."
+    },
+    {
+      "id": 1646,
+      "text": "Yalançının şahidi yanında olar."
+    },
+    {
+      "id": 1647,
+      "text": "Yanan yerdən tüstü çıxar."
+    },
+    {
+      "id": 1648,
+      "text": "Yandırdığın yovşan, ağlatdığın - dovşan."
+    },
+    {
+      "id": 1649,
+      "text": "Yanlış hesab Bağdaddan qayıdar."
+    },
+    {
+      "id": 1650,
+      "text": "Yar yarı görər, ürəyi odlanar."
+    }
+  ],
+
+  "Z": [
+    {
+      "id": 1651,
+      "text": "Zarafat, zarafat dostluğu pozar."
+    },
+    {
+      "id": 1652,
+      "text": "Zahirdən batinə yol var."
+    },
+    {
+      "id": 1653,
+      "text": "Zahiri gözəl — batini çirkin."
+    },
+    {
+      "id": 1654,
+      "text": "Zahiri gözəllik müvəqqətidir."
+    },
+    {
+      "id": 1655,
+      "text": "Zalıma Allah bəla verər."
+    },
+    {
+      "id": 1656,
+      "text": "Zalıma rəhm etmək, məzluma zülm etməkdir."
+    },
+    {
+      "id": 1657,
+      "text": "Zalımın çörəyi dizi üstə olar."
+    },
+    {
+      "id": 1658,
+      "text": "Zalımın qılıncından kasıbın ahı pisdir."
+    },
+    {
+      "id": 1659,
+      "text": "Zalımın ömrü az olar."
+    },
+    {
+      "id": 1660,
+      "text": "Zalımın zülmü yadında qalmaz."
+    },
+    {
+      "id": 1661,
+      "text": "Zaman axıb gedir, amma hər işini qurtarıb getmir."
+    },
+    {
+      "id": 1662,
+      "text": "Zaman bir nəhrdir axar, durmaz."
+    },
+    {
+      "id": 1663,
+      "text": "Zaman ilə hesablaşmaq gərək."
+    },
+    {
+      "id": 1664,
+      "text": "Zaman gedərkən uymaq gərək"
+    },
+    {
+      "id": 1665,
+      "text": "Zaman keçər, söz qalar."
+    },
+    {
+      "id": 1666,
+      "text": "Zaman pul deyil, onu qaytarmaq olmaz."
+    },
+    {
+      "id": 1667,
+      "text": "Zaman səbirlidir."
+    },
+    {
+      "id": 1668,
+      "text": "Zaman sənə saz olmasa, sən zamana saz ol."
+    },
+    {
+      "id": 1669,
+      "text": "Zaman zamana uymaz."
+    },
+    {
+      "id": 1670,
+      "text": "Zamana ilə düzəlişən həmişə rahatdır."
+    },
+    {
+      "id": 1671,
+      "text": "Zamanaya bax, arıya qaval çaldırır."
+    },
+    {
+      "id": 1672,
+      "text": "Zatı qırıqdır."
+    },
+    {
+      "id": 1673,
+      "text": "Zatına da, südünə də bələdəm."
+    },
+    {
+      "id": 1674,
+      "text": "Zəhər gələndə acı qaçar."
+    },
+    {
+      "id": 1675,
+      "text": "Zəhər zəhəri öldürər."
+    },
+    {
+      "id": 1676,
+      "text": "Zəhmət batmaz."
+    },
+    {
+      "id": 1677,
+      "text": "Zəhmət çəkən ac qalmaz."
+    },
+    {
+      "id": 1678,
+      "text": "Zəhmət çəkən bal yeyər."
+    },
+    {
+      "id": 1679,
+      "text": "Zəhmət çəkən ləzzət aparar."
+    },
+    {
+      "id": 1680,
+      "text": "Zəhmət çəkən peşman olmaz."
+    },
+    {
+      "id": 1681,
+      "text": "Zəhmət çəkməyən bal yeməz."
+    },
+    {
+      "id": 1682,
+      "text": "Zəhmət çəkməyən rahatlığın qədrini bilməz."
+    },
+    {
+      "id": 1683,
+      "text": "Zəhmət hədər getməz."
+    },
+    {
+      "id": 1684,
+      "text": "Zəhmət itməz."
+    },
+    {
+      "id": 1685,
+      "text": "Zəhmət olan yerdə qeybət olmaz."
+    },
+    {
+      "id": 1686,
+      "text": "Zəhmət — torpaqda, nemət — süfrədə."
+    },
+    {
+      "id": 1687,
+      "text": "Zəhmət yemək istəmir, amma özü yedirdir."
+    },
+    {
+      "id": 1688,
+      "text": "Zəhmətdən qaçan əl açar."
+    },
+    {
+      "id": 1689,
+      "text": "Zəhməti bülbül çəkər, gülü qucar yenə xar."
+    },
+    {
+      "id": 1690,
+      "text": "Zəhməti meşşatə çəkər, ləzzəti damad aparar."
+    },
+    {
+      "id": 1691,
+      "text": "Zəhməti sevən işdən doymaz."
+    },
+    {
+      "id": 1692,
+      "text": "Zəhmətin barı, torpağın varıdır."
+    },
+    {
+      "id": 1693,
+      "text": "Zəhmətin ətri tərdir."
+    },
+    {
+      "id": 1694,
+      "text": "Zəhmətlə yeyilən acı soğan, minnətlə yeyilən baldan şirindir."
+    },
+    {
+      "id": 1695,
+      "text": "Zəhmətsiz bal yeməzlər."
+    },
+    {
+      "id": 1696,
+      "text": "Zəhmətsiz iş olmaz."
+    },
+    {
+      "id": 1697,
+      "text": "Zəhmətsiz rəhmət olmaz."
+    },
+    {
+      "id": 1698,
+      "text": "Zəlzələni görən yanğına razı olar."
+    },
+    {
+      "id": 1699,
+      "text": "Zəmanə dəyişdikcə, adamlar da dəyişir."
+    },
+    {
+      "id": 1700,
+      "text": "Zəmanə ilə hesablaşmaq gərəkdir."
+    },
+    {
+      "id": 1701,
+      "text": "Zəmanə insanın müəllimidir."
+    },
+    {
+      "id": 1702,
+      "text": "Zəmanəyə uymaq gərək."
+    },
+    {
+      "id": 1703,
+      "text": "Zəncir aslan üçündür."
+    },
+    {
+      "id": 1704,
+      "text": "Zər deyəni zor deməz."
+    },
+    {
+      "id": 1705,
+      "text": "Zər ilə olan zor ilə olmaz."
+    },
+    {
+      "id": 1706,
+      "text": "Zər qədrini zərgər bilər."
+    },
+    {
+      "id": 1707,
+      "text": "Zər olan yerdə zərgər də olar."
+    },
+    {
+      "id": 1708,
+      "text": "Zərbə həmişə ağrıyan yerə dəyər."
+    },
+    {
+      "id": 1709,
+      "text": "Zərər çəkəndə dönmək"
+    },
+    {
+      "id": 1710,
+      "text": "Zərər çəkəndə dönmək yarıdan da olsa qazancdır"
+    },
+    {
+      "id": 1711,
+      "text": "Zərər zəhərdən acı olar."
+    },
+    {
+      "id": 1712,
+      "text": "Zərərdən qorxan dükan açmaz."
+    },
+    {
+      "id": 1713,
+      "text": "Zərərdən qorxan xeyir görməz."
+    },
+    {
+      "id": 1714,
+      "text": "Zərərin bir başı var."
+    },
+    {
+      "id": 1715,
+      "text": "Zərərin yarısından qayıtmaq özü də mənfəətdir."
+    },
+    {
+      "id": 1716,
+      "text": "Zərgər dükanının tozu da qızıl olar."
+    },
+    {
+      "id": 1717,
+      "text": "Zəri də var, zoru da."
+    },
+    {
+      "id": 1718,
+      "text": "Zərlə gözəllik almaq olmaz."
+    },
+    {
+      "id": 1719,
+      "text": "Zərrə qədər iman, dünya qədər günah."
+    },
+    {
+      "id": 1720,
+      "text": "Zərrəcə eşqi olanın dəryaca tabı gərək."
+    },
+    {
+      "id": 1721,
+      "text": "Zərurət insana hər şeyi öyrədər."
+    },
+    {
+      "id": 1722,
+      "text": "Zimistan çəkməyən bülbül baharın qədrini bilməz."
+    },
+    {
+      "id": 1723,
+      "text": "Zindana səbr eləyən axırı taxta çıxar."
+    },
+    {
+      "id": 1724,
+      "text": "Zindana olub altda qalmaqdansa, çəkic ol, üstdə ol."
+    },
+    {
+      "id": 1725,
+      "text": "Zirək quş dimdiyindən tələyə düşər."
+    },
+    {
+      "id": 1726,
+      "text": "Zirəklik comərdlik gətirər."
+    },
+    {
+      "id": 1727,
+      "text": "Zirəni Kirmana aparmazlar."
+    },
+    {
+      "id": 1728,
+      "text": "Ziyan ağudan acıdır."
+    },
+    {
+      "id": 1729,
+      "text": "Ziyanın yarısından qayıtmaq da qazancdır."
+    },
+    {
+      "id": 1730,
+      "text": "Ziyankardan qəza əskik olmaz."
+    },
+    {
+      "id": 1731,
+      "text": "Ziyarətə gələn düşməndən heyif almazlar"
+    },
+    {
+      "id": 1732,
+      "text": "Zoğal dərənimiz də var, səbət hörənimiz də."
+    },
+    {
+      "id": 1733,
+      "text": "Zor ilə gözəllik olmaz."
+    },
+    {
+      "id": 1734,
+      "text": "Zor qapıdan gələndə haqq bacadan qaçar."
+    },
+    {
+      "id": 1735,
+      "text": "Zora dağlar dayanmaz."
+    }
+  ]
+}
