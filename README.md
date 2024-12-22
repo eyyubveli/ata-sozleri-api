@@ -1,5 +1,5 @@
 # Azərbaycan Dilində Ata Sözləri üçün API
-  içərisində 1500-dən çox atasözü mövcuddur.
+URL : https://atasozleri-api.onrender.com/ 
 
 | Başlıqlar                                          | URL                                   | Nəticə                                                       |
 | -------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------ |
