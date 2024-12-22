@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: atasozleri-api
+    env: node
+    buildCommand: npm install
+    startCommand: node index.js
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: 3000
