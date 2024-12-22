@@ -51,6 +51,6 @@ fetch('https://ata-sozleri-api.onrender.com/api/proverbs/a/1')
     console.log('ID ilə atasözü:', data);
   })
   .catch(error => {
-    console.error('Xəta:', error);
+    console.error('err:', error);
   });
 ```
