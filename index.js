@@ -3,8 +3,13 @@ const cors = require('cors');
 const proverbs = require('./proverbs.json');
 const app = express();
 const PORT = process.env.PORT || 3000;
+const http = require('http');
 
 app.use(cors());
+
+setInterval(() => {
+    http.get('https://ata-sozleri-api.onrender.com/api/proverbs');
+}, 5 * 60 * 1000);
 
 
 app.get('/api/proverbs', (req, res) => {
@@ -35,7 +40,7 @@ app.get('/api/proverbs/random', (req, res) => {
 app.get('/api/proverbs/:letter', (req, res) => {
     const letter = req.params.letter.toUpperCase();
     console.log(letter);
-    
+
     if (!proverbs[letter]) {
         return res.status(404).json({ message: "Bu hərf üçün atalar sözü tapılmadı." });
     }
@@ -64,5 +69,5 @@ app.get('/api/proverbs/:letter/:id', (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`API, http://localhost:${PORT} adresinde çalışıyor.`);
+    console.log(`API, http://localhost:${PORT} running on port.`);
 });
