@@ -3,13 +3,15 @@ const cors = require('cors');
 const proverbs = require('./proverbs.json');
 const app = express();
 const PORT = process.env.PORT || 3000;
-const http = require('http');
+const https = require('https');
+const cron = require('node-cron');
 
 app.use(cors());
 
-setInterval(() => {
-    http.get('https://ata-sozleri-api.onrender.com/api/proverbs');
-}, 5 * 60 * 1000);
+cron.schedule('*/14 * * * *', () => {
+    https.get('https://ata-sozleri-api.onrender.com/api/proverbs');
+});
+
 
 
 app.get('/api/proverbs', (req, res) => {
