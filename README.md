@@ -6,7 +6,7 @@ URL : https://ata-sozleri-api.onrender.com/
 | **Bütün atasözlərini görmək üçün**                  | `GET /api/proverbs`                   | Bütün atasözlərini JSON formatında görə bilərsiniz.                |
 | **Hərfə görə axtarış etmək**          | `GET /api/proverbs/:letter`           | İstədiyiniz hərfi (məsələn: a, b, c) yaza bilərsiniz.              |
 | **Random atasözlərini görmək üçün**                 | `GET /api/proverbs/random`            | 10 dənə random  atasözü gətirir.                          |
-| **Bir atasözünü hərf  və id-yə gətirmək**                | `GET /api/proverbs/:letter/:id`       | İstədiyiniz hərf və ID-yə axtarış edə bilərsiniz. |
+| **Bir atasözünü hərf  və id-yə gətirmək**                | `GET /api/proverbs/:letter/:id`       | İstədiyiniz hərf və ID-yə görə axtarış edə bilərsiniz. |
 
 ## Nümunələr
 
