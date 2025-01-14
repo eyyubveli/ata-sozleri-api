@@ -192,7 +192,7 @@
     { "id": 149, "text": "Canavarlar ağız-ağıza yatarlar." },
     { "id": 150, "text": "Canbaz ipdə gəzər, balıq - suda." }
   ],
-  "Ç": [
+  "Ç": 
     [
       { "id": 151, "text": "Çürük taxta mıx götürməz." },
       { "id": 152, "text": "Çürük üzümün şirinliyi olmaz." },
@@ -260,8 +260,8 @@
       { "id": 193, "text": "Çox yerə baxma, öz yolunu gözləyin." },
       { "id": 194, "text": "Çox sözlə, iş bitməz, əməllər göstərilər." },
       { "id": 195, "text": "Çox danışmaq, daha çox səhv etmək deməkdir." }
-    ]
-  ],
+    ],
+  
   "D": [
     { "id": 196, "text": "Dadanan dayanmaz, pofuduğu pazdamaz" },
     { "id": 197, "text": "Dadanan qudurandan pis olar." },
